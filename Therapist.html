@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5,maximum-scale=2.0, user-scalable=yes" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- 上述3个meta标签必须放在最前面，任何其他内容都必须跟随其后！ -->
-        <title>Booking</title>
+        <title>Therapist</title>
         <!-- Bootstrap -->
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
         <!-- Font Awesome -->
@@ -15,11 +16,11 @@
         <!-- Bootstrap sortable table -->
         <link rel="stylesheet" type="text/css" href="lib/bootstrap-table/bootstrap-table.css">
         <!-- Custom Theme Style -->
-        <link rel="stylesheet" type="text/css" href="css/booking.css">
+        <link rel="stylesheet" type="text/css" href="css/Therapist.css">
+        <style>img{width:150px !important;}</style>
     </head>
-    <body>
-        <!-- 导航栏 -->
-        <nav class="navbar  booking-nav " role="navigation">
+	<body>
+		<nav class="navbar  booking-nav " role="navigation">
             <div class="navbar-header navbar-title">
                 <button type="button" class="navbar-toggle booking-nav-button" data-toggle="collapse"
                 data-target="#example-navbar-collapse">
@@ -44,45 +45,83 @@
                 </ul>
             </div>
         </nav>
-        <div class="content">
-            <div class="container-fluid">
-                <div class="booking-step ">
-                    <div class="col-xs-3 booking-step-active" >1</div>
-                    <div class="col-xs-3" >2</div>
-                    <div class="col-xs-3" >3</div>
-                    <div class="col-xs-3" >4</div>
+		<div class="content">
+			 <div class="pgbody">
+			 	<h1 class="pgbody-title-first">MASSAGE THERAPISTS</h1>
+                <div class="pgbody-title">Expreienced,qualified & insured </div>
+                <p class="pgbody-title">professional therapists </p>
+
+                <div class="col-xs-2  pgbody-mdpartl" id="pgbody-mdpartl">
+                    <div class="pgbody-mdpartm">
+                        <img src="img/ex-picture-5.jpg">
+                    </div>
+                	
+                	<div class="col-xs-4 introduce">
+                         
+                         <div class="introducet">墓穴迷城</div>
+                         <div class="introducemain">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+
+                	</div>
                 </div>
-                
-            </div>
-            <h1 class="booking-title">   Book my massage  </h1>
-            <div class="booking-input">
-                <div class="booking-input-title">
-                    Choose a date
+                	
+               <div class="col-xs-2 pgbody-mdpartr">
+                	<div class="pgbody-mdpartm">
+                        <img src="img/ex-picture-6.jpg">
+                    </div>
+                	
+                	<div class="col-xs-4 introduce">
+                         
+                         <div class="introducet">这部电影非常好看</div>
+                         <div class="introducemain">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+
+                	</div>
+               </div>
+
+               <div class="col-xs-2  pgbody-mdpartl" id="pgbody-mdpart">
+                    <div class="pgbody-mdpartm">
+                        <img src="img/ex-picture-7.jpg">
+                    </div>
+                	
+                	<div class="col-xs-4 introduce">
+                         
+                         <div class="introducet">这部电影非常好看</div>
+                         <div class="introducemain">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+
+                	</div>
                 </div>
-                <div class="input-group booking-input-body">
-                    <input type="text" class="form-control" placeholder="today">
-                </div>
-            </div>
-            <div class="booking-input">
-                <div class="booking-input-title">
-                    Time
-                </div>
-                <div class="input-group booking-input-body">
-                    <input type="text" class="form-control" placeholder="5:00PM">
-                </div>
-                <button type="button" class="btn btn-primary booking-continue">CONTINUE</button>
-            </div>
-        </div>
-        <div class="bottom">
-            <h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
-            <p>
+                	
+               <div class="col-xs-2 pgbody-mdpartr">
+                	<div class="pgbody-mdpartm">
+                        <img src="img/ex-picture-4.jpg">
+                    </div>
+                	
+                	<div class="col-xs-4 introduce">
+                         
+                         <div class="introducet">这部电影非常好看</div>
+                         <div class="introducemain">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+
+                	</div>
+               </div>
+
+               
+
+			 </div>
+
+
+			 <div class="bottom">
+              <h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
+             <p>
                 @2017 MOBILE MASSAGES<br>
                 TERMS&CONDITIONS<br>
                 PRIVACY POLICY
-            </p>
+             </p>
             
         </div>
-        <!-- jQuery (Bootstrap必需) -->
+
+
+		</div>
+
+		<!-- jQuery (Bootstrap必需) -->
         <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
         <!-- Bootstrap -->
         <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
@@ -95,5 +134,5 @@
         <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
         <!-- 自定义 -->
         <script type="text/javascript" src="js/booking.js"></script>
-    </body>
+	</body>
 </html>
