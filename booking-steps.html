@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签必须放在最前面，任何其他内容都必须跟随其后！ -->
+		<title>Booking</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+		<!-- Data Range Picker -->
+		<link rel="stylesheet" type="text/css" href="lib/daterangepicker/daterangepicker.css">
+		<!-- Bootstrap sortable table -->
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap-table/bootstrap-table.css">
+		<!-- Custom Theme Style -->
+		<link rel="stylesheet" type="text/css" href="css/booking-steps.css">
+	</head>
+	<body>
+		<!-- 导航栏 -->
+		<div class="navigation">
+			<div class="nav-brand pull-left">
+				<span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span>
+			</div>
+			<div class="nav-panel pull-right ">
+				<ul class="nav navbar-nav  navbar-right navigation-nav">
+				    <a href="#">
+				    	<div class="menu-title visible-xs row">
+				    	    <div class="col-xs-3 menu-txt">MENU</div>
+				    		
+				    		<div class="menu-title-mm col-xs-7"><span class="nav-txt-mobile">Mobile</span>
+				    		<span class="nav-txt-mas"> massages</span></div>
+				    		<i class="fa fa-close menu-close col-xs-2"></i>
+				    	</div>
+				    </a>
+				  
+					<li class="nav-active"><a href="#">Home</a></li>
+					<li><a href="#">Booking</a></li>
+					<li><a href="#">Therapist</a></li>
+					<li><a href="#">Style</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#"><span class="booking-signin">Sign in</span></a></li>			
+				</ul>
+
+			</div>
+			<div class="nav-button pull-right  visible-xs">
+				<span class="sr-only">切换导航</span>
+				<span class="icon-bar-color"></span>
+				<span class="icon-bar-color"></span>
+				<span class="icon-bar-color"></span>
+			</div>
+		</div>
+		<!-- <nav class="navbar  booking-nav navbar-fixed-top" role="navigation">
+			<div class="navbar-header navbar-title">
+				<button type="button" class="navbar-toggle booking-nav-button" data-toggle="collapse"
+				data-target="#example-navbar-collapse">
+				<span class="sr-only">切换导航</span>
+				<span class="icon-bar icon-bar-color"></span>
+				<span class="icon-bar icon-bar-color"></span>
+				<span class="icon-bar icon-bar-color"></span>
+				</button>
+				<a class="navbar-brand " href="#"><span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span> </a>
+			</div>
+			<div class=" navbar-collapse" id="example-navbar-collapse">
+				<ul class="nav navbar-nav  navbar-right">
+					<li class="nav-active"><a href="#">Home</a></li>
+					<li><a href="#">Booking</a></li>
+					<li><a href="#">Therapist</a></li>
+					<li><a href="#">Style</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#"><span class="booking-signin">Sign in</span></a></li>
+					
+				</ul>
+			</div>
+		</nav> -->
+		<div class="content">
+			<div class="container-fluid">
+				<div class="booking-step ">
+					<div class="col-xs-3 " >1</div>
+					<div class="col-xs-3 booking-step-active" >2</div>
+					<div class="col-xs-3" >3</div>
+					<div class="col-xs-3" >4</div>
+				</div>
+				
+			</div>
+			<h1 class="booking-title">Customize my massage</h1>
+			<div class="booking-search ">
+				<div class="booking-search-title">
+					Choose  session
+				</div>
+				<div class="dropdown">
+					<button class="search-btn btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					
+					<span class="button-input"> Single-1 therapist</span>
+					<span class="caret search-caret">
+					</span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="#">所有版本</a></li>
+						<li><a href="#">1.0.1</a></li>
+						<li><a href="#">1.0.2</a></li>
+						<li><a href="#">1.0.3</a></li>
+						<li><a href="#">1.0.4</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="booking-search ">
+				<div class="booking-search-title">
+					Massage lenght
+				</div>
+				<div class="dropdown">
+					<button class="search-btn btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					
+					<span class="button-input"> 60 minutes-$99</span>
+					<span class="caret search-caret">
+					</span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="#">所有版本</a></li>
+						<li><a href="#">1.0.1</a></li>
+						<li><a href="#">1.0.2</a></li>
+						<li><a href="#">1.0.3</a></li>
+						<li><a href="#">1.0.4</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="booking-search ">
+				<div class="booking-search-title">
+					Massage type
+				</div>
+				<div class="dropdown">
+					<button class="search-btn btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					
+					<span class="button-input">Swedish Massage</span>
+					<span class="caret search-caret">
+					</span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="#">所有版本</a></li>
+						<li><a href="#">1.0.1</a></li>
+						<li><a href="#">1.0.2</a></li>
+						<li><a href="#">1.0.3</a></li>
+						<li><a href="#">1.0.4</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="choose-therapist">
+				<div class="choose-therapist-title">
+					<span class="ctt-choose">Choose your therapist</span><br>
+					<span class="ctt-available"><strong>Available:</strong></span>
+				</div>
+			</div>
+			<div class="booking-picturebox container-fluid">
+				<div class="row">
+					<div class="col-xs-3 " >
+					<img src="img/booking.jpg" alt="">
+					</div>
+					<div class="col-xs-3 " >
+					<img src="img/booking.jpg" alt="">
+					</div>
+					<div class="col-xs-3 " >
+					<img src="img/booking.jpg" alt="">
+					</div>
+					<div class="col-xs-3 " >
+					<img src="img/booking.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="booking-imformation">
+				<h4 class="imformation-title">
+						MOLLY
+				</h4>
+				<div class="imformation-body">
+					After a bit I asked the boy who the doll was for. He said, "It is the doll my sister wanted so badly for Chirsmas. She just knew that Santa would bring it. "I told him that maybe Santa was going to bring it . He said, "No, Santa can't go where my sister is.... I have to give the doll to my Mama to take to her. "I asked him where his siter was. He looked at me with the saddest eyes and said, "She was gone to be with Jesus. My Daddy says that Mamma is going to have to go be with her."
+				</div>
+			</div>
+			 <a href="booking-stept.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
+			 <div class="continue-txt">
+			 	By clicking "Continue" above,you are agreeing to our terms of Service agreement.
+			 </div>
+			 <a href="booking-stepo.html"><div class="back">
+			 	<i class="fa fa-angle-left back-caret"></i>
+			 	<span class="back-txt">Back</span>
+			 </div>	
+			 </a>
+		</div>
+		<div class="bottom">
+			<h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
+			<p>
+				@2017 MOBILE MASSAGES<br>
+				TERMS&CONDITIONS<br>
+				PRIVACY POLICY
+			</p>
+			
+		</div>
+		<!-- jQuery (Bootstrap必需) -->
+		<script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap -->
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Moment -->
+		<script type="text/javascript" src="lib/momentjs/moment.min.js"></script>
+		<!-- Date Range Picker -->
+		<script type="text/javascript" src="lib/daterangepicker/daterangepicker.js"></script>
+		<!-- bootstrap sortable table -->
+		<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table.js"></script>
+		<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
+		<!-- 自定义 -->
+		<script type="text/javascript" src="js/booking-steps.js"></script>
+	</body>
+</html>

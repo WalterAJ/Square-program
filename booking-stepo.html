@@ -15,35 +15,45 @@
         <!-- Bootstrap sortable table -->
         <link rel="stylesheet" type="text/css" href="lib/bootstrap-table/bootstrap-table.css">
         <!-- Custom Theme Style -->
-        <link rel="stylesheet" type="text/css" href="css/booking.css">
+        <link rel="stylesheet" type="text/css" href="css/booking-stepo.css">
     </head>
     <body>
         <!-- 导航栏 -->
-        <nav class="navbar  booking-nav " role="navigation">
-            <div class="navbar-header navbar-title">
-                <button type="button" class="navbar-toggle booking-nav-button" data-toggle="collapse"
-                data-target="#example-navbar-collapse">
-                <span class="sr-only">切换导航</span>
-                <span class="icon-bar icon-bar-color"></span>
-                <span class="icon-bar icon-bar-color"></span>
-                <span class="icon-bar icon-bar-color"></span>
-                </button>
-                <a class="navbar-brand " href="#"><span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span> </a>
+        <div class="navigation">
+            <div class="nav-brand pull-left">
+                <span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span>
             </div>
-            <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav  navbar-right">
-                    <li class="nav-active"><a href="index.html">Home</a></li>
-                    <li><a href="booking.html">Booking</a></li>
-                    <li><a href="Therapist.html">Therapist</a></li>
+            <div class="nav-panel pull-right ">
+                <ul class="nav navbar-nav  navbar-right navigation-nav">
+                    <a href="#">
+                        <div class="menu-title visible-xs row">
+                            <div class="col-xs-3 menu-txt">MENU</div>
+                            
+                            <div class="menu-title-mm col-xs-6"><span class="nav-txt-mobile">Mobile</span>
+                            <span class="nav-txt-mas"> massages</span></div>
+                            <i class="fa fa-close menu-close col-xs-3"></i>
+                        </div>
+                    </a>
+                  
+                    <li class="nav-active"><a href="#">Home</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Therapist</a></li>
+
                     <li><a href="#">Style</a></li>
                     <li><a href="Pricing.html">Pricing</a></li>
                     <li><a href="FAQ.html">FAQ</a></li>
                     <li><a href="#">Contact Us</a></li>
-                    <li><a href="#"><span class="booking-signin">Sign in</span></a></li>
-                    
+                    <li><a href="#"><span class="booking-signin">Sign in</span></a></li>            
                 </ul>
+
             </div>
-        </nav>
+            <div class="nav-button pull-right visible-xs">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar-color"></span>
+                <span class="icon-bar-color"></span>
+                <span class="icon-bar-color"></span>
+            </div>
+        </div>
         <div class="content">
             <div class="container-fluid">
                 <div class="booking-step ">
@@ -60,7 +70,7 @@
                     Choose a date
                 </div>
                 <div class="input-group booking-input-body">
-                    <input type="text" class="form-control" placeholder="today">
+                    <input type="text" class="form-control" placeholder="5:00PM">
                 </div>
             </div>
             <div class="booking-input">
@@ -70,7 +80,7 @@
                 <div class="input-group booking-input-body">
                     <input type="text" class="form-control" placeholder="5:00PM">
                 </div>
-                <button type="button" class="btn btn-primary booking-continue">CONTINUE</button>
+                <a href="booking-steps.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
             </div>
         </div>
         <div class="bottom">
@@ -84,7 +94,7 @@
         </div>
         <!-- jQuery (Bootstrap必需) -->
         <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
-        <!-- Bootstrap -->
+        <!-- Bootstrap --> 
         <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
         <!-- Moment -->
         <script type="text/javascript" src="lib/momentjs/moment.min.js"></script>
@@ -94,6 +104,6 @@
         <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table.js"></script>
         <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
         <!-- 自定义 -->
-        <script type="text/javascript" src="js/booking.js"></script>
+        <script type="text/javascript" src="js/booking-stepo.js"></script>
     </body>
 </html>
