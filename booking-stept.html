@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签必须放在最前面，任何其他内容都必须跟随其后！ -->
+		<title>Booking</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+		<!-- Data Range Picker -->
+		<link rel="stylesheet" type="text/css" href="lib/daterangepicker/daterangepicker.css">
+		<!-- Bootstrap sortable table -->
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap-table/bootstrap-table.css">
+		<!-- Custom Theme Style -->
+		<link rel="stylesheet" type="text/css" href="css/booking-stept.css">
+	</head>
+	<body>
+		<!-- 导航栏 -->
+		<div class="navigation">
+			<div class="nav-brand pull-left">
+				<span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span>
+			</div>
+			<div class="nav-panel pull-right ">
+				<ul class="nav navbar-nav  navbar-right navigation-nav">
+					<a href="#">
+						<div class="menu-title visible-xs row">
+							<div class="col-xs-3 menu-txt">MENU</div>
+							
+							<div class="menu-title-mm col-xs-6"><span class="nav-txt-mobile">Mobile</span>
+							<span class="nav-txt-mas"> massages</span></div>
+							<i class="fa fa-close menu-close col-xs-3"></i>
+						</div>
+					</a>
+					
+					<li><a href="#">Home</a></li>
+					<li class="nav-active"><a href="#">Booking</a></li>
+					<li><a href="#">Therapist</a></li>
+					<li><a href="#">Style</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#"><span class="booking-signin">Sign in</span></a></li>
+				</ul>
+			</div>
+			<div class="nav-button pull-right visible-xs">
+				<span class="sr-only">切换导航</span>
+				<span class="icon-bar-color"></span>
+				<span class="icon-bar-color"></span>
+				<span class="icon-bar-color"></span>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container-fluid">
+				<div class="booking-step ">
+					<div class="col-xs-3 " >1</div>
+					<div class="col-xs-3" >2</div>
+					<div class="col-xs-3 booking-step-active" >3</div>
+					<div class="col-xs-3" >4</div>
+				</div>
+				
+			</div>
+			<h1 class="booking-title">Create your account or sign in to your <br> existing account to contiune </h1>
+			<div class="radiobox">
+				<div class="radio booking-radio">
+					<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+						I am a customer
+					</label>
+				</div>
+				<div class="radio booking-radio">
+					<label>
+						<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+						I am a account
+					</label>
+				</div>
+			</div>
+			<a href="#"><button type="button" class="btn btn-primary booking-fb">
+			<i class=" fa fa-facebook"></i>Sign Up with Facebook</button></a>
+			<div class="container-fluid">
+				<div class="cutting row">
+					<div class="cutting-line col-xs-5"></div>
+					<div class="col-xs-2 cutting-txt">or</div>
+					<div class="cutting-line col-xs-5"></div>
+				</div>
+			</div>
+			<div class="booking-input">
+				<div class="booking-input-title">
+					First Name
+				</div>
+				<div class="input-group booking-input-body">
+					<input type="text" class="form-control" >
+				</div>
+			</div>
+			<div class="booking-input">
+				<div class="booking-input-title">
+					Last Name
+				</div>
+				<div class="input-group booking-input-body">
+					<input type="text" class="form-control" >
+				</div>
+				
+			</div>
+			<div class="booking-input">
+				<div class="booking-input-title">
+					Email address
+				</div>
+				<div class="input-group booking-input-body">
+					<input type="text" class="form-control" >
+				</div>
+				
+			</div>
+			<div class="booking-input">
+				<div class="booking-input-title">
+					Mobile number
+				</div>
+				<div class="input-group booking-input-body">
+					<input type="text" class="form-control" >
+				</div>
+				
+			</div>
+			<div class="booking-input">
+				<div class="booking-input-title">
+					Choose a password
+				</div>
+				<div class="input-group booking-input-body">
+					<input type="text" class="form-control" >
+				</div>
+				
+			</div>
+			<a href="booking-stepf.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
+			<a href="booking-steps.html"><div class="back">
+			 	<i class="fa fa-angle-left back-caret"></i>
+			 	<span class="back-txt">Back</span>
+			 </div>	
+			 </a>
+		</div>
+		<div class="bottom">
+			<h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
+			<p>
+				@2017 MOBILE MASSAGES<br>
+				TERMS&CONDITIONS<br>
+				PRIVACY POLICY
+			</p>
+			
+		</div>
+		<!-- jQuery (Bootstrap必需) -->
+		<script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap -->
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Moment -->
+		<script type="text/javascript" src="lib/momentjs/moment.min.js"></script>
+		<!-- Date Range Picker -->
+		<script type="text/javascript" src="lib/daterangepicker/daterangepicker.js"></script>
+		<!-- bootstrap sortable table -->
+		<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table.js"></script>
+		<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
+		<!-- 自定义 -->
+		<script type="text/javascript" src="js/booking-stept.js"></script>
+	</body>
+</html>

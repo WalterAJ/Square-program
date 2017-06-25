@@ -6,7 +6,7 @@
  * @date    2017-06-21 20:38:33
  * @version $Id$
  */
-.booking-nav {
+/* .booking-nav {
     z-index: 3000;
 	border-bottom: 1px solid #e2fced;
 	background-color: #fff;
@@ -42,6 +42,93 @@
 	.booking-nav {
 		border:0;
 	}
+} */
+/*导航*/
+.navigation{
+	height: 50px;
+	width: 100%;
+}
+.nav-txt-mobile {
+	color: #82d9b4;
+	font-size: 1.4em;
+	line-height: 50px;
+}
+.nav-txt-mas {
+	color: #64d2a3;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.nav-brand{
+	margin-left: 10px;
+}
+.navbar-right>li>a {
+	color: #999;
+	background-color: #fff;
+}
+.nav-active {
+	font-weight: bold;
+}
+.booking-signin {
+	color: #82d9b4;
+	margin: 0 35px;
+}
+.nav-button{
+	margin: 20px;
+	height: 30px;
+	width: 30px;
+	cursor:pointer
+}
+.menu-title{
+	height: 50px;
+	line-height: 50px;
+    text-align: center;
+	background-color:#fff;
+	color: #6d6d6d;
+	padding: 0 10px;
+}
+.menu-txt{
+	font-size: 2em;
+	color: #cbcbcb;
+	text-align: left;
+}
+
+.menu-close {
+	font-size: 2em;
+	line-height: 50px;
+	color: #cbcbcb;
+	text-align: right;
+}
+.menu-title-mm{
+	max-height: 50px;
+}
+.icon-bar-color {
+
+	margin-top: 4px;
+	background-color: #999;
+	display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navigation-nav>a{
+	text-decoration:none;
+
+}
+@media(max-width: 767px){
+	.nav-panel{
+		width: 90%;
+		position: fixed;
+        right: -1000px;
+        top: 0;
+        z-index: 3000;
+	}
+	.navigation-nav{
+		margin: 0;
+	}
+	.booking-signin {
+	color: #82d9b4;
+	margin: 0;
+}
 }
 
 /*主体*/
@@ -121,6 +208,15 @@
 	width: 100%;
 
 }
+.imformation-title{
+    text-align: left;
+    color: #3ab293;
+}
+.imformation-body{
+	width: 100%;
+	text-align: left;
+}
+/*继续，返回按钮*/
 .booking-continue {
 	margin-top: 30px;
 	width: 200px;
@@ -149,7 +245,7 @@
 	color: #9c9c9c;
 	font-weight: bold;
 }
-@media(max-width:768px) {
+@media(max-width:767px) {
 	.content {
 		width: 100%;
 		margin: 0;
@@ -166,7 +262,7 @@
 	height: 30%;
 	width: 100%;
 	background-color: #28ab8b;
-	margin-top: 300px;	
+	margin-top: 200px;	
 }
 .bottom-title {
 	margin-bottom: 50px;
