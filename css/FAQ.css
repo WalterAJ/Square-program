@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+
+
+.content{
+  
+}
+/*--页面头部--*/
+.booking-nav {
+    border-bottom: 1px solid #e2fced;
+}
+.booking-nav-button {
+    border: 1px solid #fff;
+}
+.navbar-right>li>a {
+    color: #999;
+    background-color: #fff;
+}
+.nav-txt-mobile {
+    color: #82d9b4;
+}
+.nav-txt-mas {
+    color: #64d2a3;
+    font-weight: bold;
+}
+.nav-active {
+    font-weight: bold;
+}
+.icon-bar-color {
+    background-color: #999;
+}
+.booking-signin {
+    color: #64d2a3;
+}
+
+/*--------------body-------------*/
+
+/*--主题--*/
+
+.pgbody-title {
+   
+   text-align: center;
+   margin-left: auto;
+   margin-top: auto;
+   font-weight: 100;
+   font-size: 20px;
+   margin-top: 10%;
+   height: 100%;
+   color: #64d2a3;
+}
+
+
+/*--自适应缩放--*/
+
+/*----PC---*/
+
+@media (min-width: 768px) {
+    .content h2{
+    text-align: center;
+    color: #6CD4A7;
+    margin-top: 1%;
+}
+.pgbody{
+    margin-top: 10%;
+    height: 15%;
+    width: 100%;
+}
+.pgbody-t{
+
+    text-align: left;
+    color: #6CD4A7;
+    font-size:20px;
+    font-weight: 100;
+    width: 60%;
+    margin-left: 20%;
+}
+.pgbody-m{
+    text-align: left;
+    color: gray;
+    font-size:15px;
+    width: 70%;
+    margin-left: 20%;
+    margin-top:2%; 
+
+}
+
+/*--页尾--*/
+.bottom {
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    background-color: #28ab8b;
+    position: absolute;
+    margin-top: 10%;
+}
+.bottom-title {
+    margin-bottom: 0px;
+}
+}
+
+/*---手机端---*/
+@media (max-width: 768px) {
+    .content h2{
+    text-align: center;
+    color: gray;
+    margin-top: 1%;
+
+}
+.pgbody{
+    margin-top: 10%;
+    height: 15%;
+    width: 100%;
+}
+.pgbody-t{
+
+    text-align: left;
+    color: #6CD4A7;
+    font-size:20px;
+    font-weight: 100;
+    width: 60%;
+    margin-left: 10%;
+}
+.pgbody-m{
+    text-align: left;
+    color: gray;
+    font-size:15px;
+    width: 70%;
+    margin-left: 10%;
+    margin-top:2%; 
+
+}
+
+/*--页尾--*/
+.bottom {
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    background-color: #28ab8b;
+    position: absolute;
+    margin-top: 100px;
+}
+.bottom-title {
+    margin-bottom: 0px;
+}
+}
+
+
+
+
+
+
+
+
