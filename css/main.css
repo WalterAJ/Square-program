@@ -272,21 +272,17 @@ ul li {
 
 =======
 .bottom {
-	color: #fff;
-	padding-top: 50px;
-	text-align: center;
-	height: 30%;
-	width: 100%;
-	background-color: #28ab8b;
-	position: absolute;
-
+color: #fff;
+padding-top: 50px;
+text-align: center;
+height: 30%;
+width: 100%;
+background-color: #28ab8b;
+position: absolute;
 }
 .bottom-title {
-	margin-bottom: 50px;
+margin-bottom: 50px;
 }
-
-
-
 .navigation{
 	height: 50px;
 	width: 100%;
@@ -373,274 +369,266 @@ ul li {
 	margin: 0;
 }
 }
-
-
-
 .booking-nav-button {
-	border: 1px solid #fff;
+border: 1px solid #fff;
 }
 .navbar-right>li>a {
-	color: #999;
-	background-color: #fff;
+color: #999;
+background-color: #fff;
 }
-
-
 .icon-bar-color {
-	background-color: #999;
+background-color: #999;
 }
-
 .booking-step {
-	padding: 0 30px 0 30px;
-	text-align: center;
-	height: 60px;
-	border-bottom: 1px solid #e2fced;
-	border-top: 1px solid #e2fced;
-	color: #cbcbcb;
-	line-height: 60px;
-	font-size: 20px;
-	font-weight: bold;
+padding: 0 30px 0 30px;
+text-align: center;
+height: 60px;
+border-bottom: 1px solid #e2fced;
+border-top: 1px solid #e2fced;
+color: #cbcbcb;
+line-height: 60px;
+font-size: 20px;
+font-weight: bold;
 }
 .booking-title {
-	text-align: center;
-	color: #64d2a3;
-	font-weight: bold;
-	font-family: console;
-	margin-top: 25px;
+text-align: center;
+color: #64d2a3;
+font-weight: bold;
+font-family: console;
+margin-top: 25px;
 }
 .booking-titles{
-	text-align: center;
-	color: black;
-	font-weight: bold;
-	font-family: inherit;
+text-align: center;
+color: black;
+font-weight: bold;
+font-family: inherit;
 }
 .booking-step-active {
-	color: #676767;
-	line-height: 60px;
-	font-size: 30px;
+color: #676767;
+line-height: 60px;
+font-size: 30px;
 }
 .booking-input {
-	width: 100%;
-	max-width: 330px;
-	color: #9c9c9c;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 30px;
+width: 100%;
+max-width: 330px;
+color: #9c9c9c;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
 }
 .booking-input-title {
-	text-align: left;
-	font-size: 17px;
+text-align: left;
+font-size: 17px;
 }
 .booking-input-body {
-	text-align: left;
-	width: 100%;
+text-align: left;
+width: 100%;
 }
 .booking-continue {
-	margin-top: 80px;
-	width: 300px;
-	height: 60px;
-	border-radius: 0;
-	border-color: #64d2a3;
-	background-color: #64d2a3;
-	font-size: 25px;
+margin-top: 80px;
+width: 300px;
+height: 60px;
+border-radius: 0;
+border-color: #64d2a3;
+background-color: #64d2a3;
+font-size: 25px;
 }
 .image{
-	margin-top:5px;
-	margin-bottom: 50px;
+margin-top:5px;
+margin-bottom: 50px;
 }
 #content{
-	height: 5800px;
-}
-.row{
-	margin-top: 50px;
+height: 7500px;
 }
 .rowbo{
-	margin-top: 50px;
+margin-top: 50px;
 }
 .col-md-4{
-	background-color: #0eef8f;
-	display: flex;
-	height: 180px;
+background-color: #0eef8f;
+display: flex;
+height: 180px;
+}
+.rng{
+	width: 100%;
 }
 .box{
-	margin-top: 50px;
-	margin-left: 60px;
-	width: 70px;
-	height: 70px;
+margin-top: 50px;
+margin-left: 60px;
+width: 70px;
+height: 70px;
 }
 .word{
-	margin-left: 5px;
-	margin-top: 60px;
-	font-size: 20px;
+margin-left: 5px;
+margin-top: 60px;
+font-size: 20px;
 }
 .Therapist{
-	height: 180px;
-	margin-top: 50px;
+height: 180px;
+margin-top: 50px;
 }
 .title{
-	margin-top: 50px;
-	text-align: center;
-	font-family: inherit;
-	font-size: 40px;
-	color: #64d2a3;
+margin-top: 50px;
+text-align: center;
+font-family: inherit;
+font-size: 40px;
+color: #64d2a3;
 }
 .img-circle{
-	height: 250px;
-    width: 250px;
-    margin-left: 50px;
+height: 250px;
+width: 250px;
+margin-left: 50px;
 }
 .line{
-	margin-top: 20px;
-	text-align: center;
+margin-top: 20px;
+text-align: center;
 }
 .typem{
-	margin-top: 30px;
-	background-color: #e6ffef;
+margin-top: 30px;
+background-color: #e6ffef;
 }
 .type-title{
-	padding-top: 40px;
-	text-align: center;
-	font-family: inherit;
-	font-size: 40px;
-	color: #64d2a3;
+padding-top: 40px;
+text-align: center;
+font-family: inherit;
+font-size: 40px;
+color: #64d2a3;
 }
 .type-massage{
-	padding-top: 60px;
-	width: 50%;
-	margin:0 auto;
+padding-top: 60px;
+width: 50%;
+margin:0 auto;
 }
 .mbx{
-	height: 200px;
-	display: flex;
+height: 200px;
+display: flex;
 }
 .rightbox{
-	margin-top: 60px;
-	margin-left: 10px;
+margin-top: 60px;
+margin-left: 10px;
 }
 .rb-title{
-	font-size: 25px;
-	font-family: inherit;
-	color: #64d2a3;
+font-size: 25px;
+font-family: inherit;
+color: #64d2a3;
 }
 .rb-m{
-	font-family: inherit;
-	font-size: 15px;
+font-family: inherit;
+font-size: 15px;
 }
 @media(max-width: 768px){
-	.type-massage{
-	padding-top: 60px;
-	width: 100%;
-	margin:0;
+.type-massage{
+padding-top: 60px;
+width: 100%;
+margin:0;
 }
 }
 .pricing-title{
-	padding-top: 40px;
-	text-align: center;
-	font-family: inherit;
-	font-size: 50px;
-	color: #64d2a3;
+padding-top: 40px;
+text-align: center;
+font-family: inherit;
+font-size: 50px;
+color: #64d2a3;
 }
 .c-price{
-	padding-top: 40px;
-	width: 50%;
-	margin:0 auto;
+padding-top: 40px;
+width: 50%;
+margin:0 auto;
 }
 @media(max-width: 768px){
-	.c-price{
-	padding-top: 10px;
-	width: 100%;
-	margin:0;
-    }
+.c-price{
+padding-top: 10px;
+width: 100%;
+margin:0;
+}
 }
 .pbox{
-	text-align: center;
-	font-size: 55px;
-	border-bottom: groove;
-	border-width: 3px;
-	border-color: #64d2a3;
+text-align: center;
+font-size: 20px;
+border-bottom: groove;
+border-width: 3px;
+border-color: #64d2a3;
 }
 .faq{
-	background-color: #e6ffef;
-
+background-color: #e6ffef;
 }
 .faq-title{
-	padding-top: 40px;
-	text-align: center;
-	font-family: inherit;
-	font-size: 45px;
-	color: #64d2a3;
+padding-top: 40px;
+text-align: center;
+font-family: inherit;
+font-size: 45px;
+color: #64d2a3;
 }
 .faq-body{
-	padding-top: 40px;
-	width: 40%;
-	margin:0 auto;
+padding-top: 40px;
+width: 40%;
+margin:0 auto;
 }
 @media(max-width: 768px){
-	.faq-body{
-	padding-top: 10px;
-	width: 100%;
-	margin:0;
-    }
+.faq-body{
+padding-top: 10px;
+width: 100%;
+margin:0;
+}
 }
 .q{
-	margin-top: 10px;
-	font-size: 25px;
-	color: #64d2a3;
-	font-family: inherit;
+margin-top: 10px;
+font-size: 25px;
+color: #64d2a3;
+font-family: inherit;
 }
 .a{
-	margin-top: 10px;
-	font-size: 20px;
-	font-family: inherit;
+margin-top: 10px;
+font-size: 20px;
+font-family: inherit;
 }
 .contactus-title{
-	padding-top: 40px;
-	text-align: center;
-	font-family: inherit;
-	font-size: 55px;
-	color: #64d2a3;
+padding-top: 40px;
+text-align: center;
+font-family: inherit;
+font-size: 55px;
+color: #64d2a3;
 }
 .contactus-titles{
-	text-align: center;
-	color: black;
-	font-weight: bold;
-	font-family: inherit;
-	font-size: 35px;
+text-align: center;
+color: black;
+font-weight: bold;
+font-family: inherit;
+font-size: 35px;
 }
 .phone-number{
-	text-align: center;
-	color: grey;
-	font-family: inherit;
-	font-weight: bold;
-	font-size: 30px;
-	margin-top: 40px;
-
+text-align: center;
+color: grey;
+font-family: inherit;
+font-weight: bold;
+font-size: 30px;
+margin-top: 40px;
 }
 .contactus-body{
-	padding-top: 40px;
-	width: 40%;
-	margin:0 auto;
+padding-top: 40px;
+width: 40%;
+margin:0 auto;
 }
 @media(max-width: 768px){
-	.contactus-body{
-	padding-top: 10px;
-	width: 100%;
-	margin:0;
-    }
+.contactus-body{
+padding-top: 10px;
+width: 100%;
+margin:0;
+}
 }
 .contactus-input-body {
-	margin-top: 20px;
-	text-align: center;
-	width: 100%;
+margin-top: 20px;
+text-align: center;
+width: 100%;
 }
 .contactus-input-largebody{
-	margin-top: 20px;
-	vertical-align:top;
-	width: 100%;
-	height: 350px;
+margin-top: 20px;
+vertical-align:top;
+width: 100%;
+height: 350px;
 }
 .form-largecontrol{
-	height: 350px;
-	width: 100%;
 
-} 
+height: 350px;
+width: 100%;
+}
 
