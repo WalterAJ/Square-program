@@ -1,0 +1,87 @@
+.booking-nav {
+  border-bottom: 1px solid #e2fced;
+}
+.booking-nav-button {
+  border: 1px solid #fff;
+}
+.navbar-right>li>a {
+  color: #999;
+  background-color: #fff;
+}
+.nav-txt-mobile {
+  color: #82d9b4;
+}
+.nav-txt-mas {
+  color: #64d2a3;
+  font-weight: bold;
+}
+.nav-active {
+  font-weight: bold;
+}
+.icon-bar-color {
+  background-color: #999;
+}
+.booking-signin {
+  color: #82d9b4;
+}
+@media(max-width:768px) {
+  .navbar-title {
+    width: 100%;
+    float: left;
+  }
+  .booking-nav {
+    border:0;
+  }
+}
+.sign{
+  width: 100%;
+  text-align: center;
+}
+.sign-title{
+  font-size: 30px;
+  color: rgb(153, 153, 153);
+  margin-bottom: 1.5em;
+}
+.sign-content, .sign-direction, .sign-click, .sign-rule, .sign-rules{
+  width: 271px;
+  margin: 0 auto;
+}
+.sign-content{
+  height: 72px;
+}
+.sign-content-word{
+  height: 30px;
+  padding-top: 17px;
+  text-align: left;
+  color: rgb(157, 157, 157);
+}
+.sign-content-input, .sign-content-input-control{
+  width: 100%;
+  height: 40px;
+}
+.sign-content-input-control{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(240,240,240);
+}
+.sign-direction-button{
+  width: 100%;
+  margin: 20px 0 37px 0;
+  border-radius:25px;
+  background-color: rgb(61, 90, 148);
+  border-style: solid;
+  border-width: 0px;
+}
+.sign-click-button{
+  width: 100%;
+  background-color: rgb(100, 210, 163);
+  border-style: solid;
+  border-width: 0px;
+}
+.sign-rule, .sign-rules{
+  font-size: 0.7em;
+}
+
+/*
+768, 1024,   414
+*/

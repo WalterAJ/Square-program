@@ -1,0 +1,76 @@
+.booking-nav {
+	border-bottom: 1px solid #e2fced;
+}
+.booking-nav-button {
+	border: 1px solid #fff;
+}
+.navbar-right>li>a {
+	color: #999;
+	background-color: #fff;
+}
+.nav-txt-mobile {
+	color: #82d9b4;
+}
+.nav-txt-mas {
+	color: #64d2a3;
+	font-weight: bold;
+}
+.nav-active {
+	font-weight: bold;
+}
+.icon-bar-color {
+	background-color: #999;
+}
+.booking-signin {
+	color: #82d9b4;
+}
+@media(max-width:768px) {
+	.navbar-title {
+		width: 100%;
+		float: left;
+	}
+	.booking-nav {
+		border:0;
+	}
+}
+.forget{
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+}
+.forget-clues{
+	width: 80%
+	margin: 0 auto;
+	color: rgb(159, 159, 159);
+	margin-bottom: 1em;
+	font-size: 4em;
+}
+.forget-email,.forget-address, .forget-reset{
+	width: 50%;
+	margin: 0 auto;
+	height: 4em;
+}
+.forget-clues-word, .forget-address-input, .forget-reset-button{
+	width: 100%;
+	height: 100%;
+}
+.forget-email{	
+	color: rgb(159, 159, 159);
+}
+.forget-emial-word, .forget-reset-button{
+	font-size: 2em;
+	float: left;
+	clear: both;
+}
+.forget-address{
+	margin-bottom: 3em;
+}
+.forget-address-input{
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: rgb(240, 240, 240);
+}
+.forget-address-button{
+	background-color: rgb(100, 210, 163);
+	color: #ffffff;
+}
