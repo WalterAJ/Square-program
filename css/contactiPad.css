@@ -1,0 +1,105 @@
+.booking-nav {
+  border-bottom: 1px solid #e2fced;
+}
+.booking-nav-button {
+  border: 1px solid #fff;
+}
+.navbar-right>li>a {
+  color: #999;
+  background-color: #fff;
+}
+.nav-txt-mobile {
+  color: #82d9b4;
+}
+.nav-txt-mas {
+  color: #64d2a3;
+  font-weight: bold;
+}
+.nav-active {
+  font-weight: bold;
+}
+.icon-bar-color {
+  background-color: #999;
+}
+.booking-signin {
+  color: #82d9b4;
+}
+@media(max-width:768px){
+  .navbar-title {
+    width: 100%;
+    float: left;
+  }
+  .booking-nav {
+    border:0;
+  }
+}
+
+.contact{
+  width: 100%;
+  text-align: center;
+}
+.contact-title, .contact-connect, .contact-phone, .contact-input,.contact-click{
+  margin: 0 auto;
+}
+
+.contact-title{
+  font-size: 4em;
+  color: rgb(100, 210, 163);
+  margin-bottom: 1.0em;
+  text-align: center;
+}
+.contact-connect{
+  text-align: center;
+  margin-bottom: 2.0em;
+}
+.contact-connect-word{
+   font-size: 2.0em;
+}
+.contact-phone{
+  font-size: 2.0em;
+  text-align: center;
+  margin-bottom: 2.0em;
+}
+.contact-phone-word{}
+.contact-phone-word-stress{
+  font-weight: 600;
+}
+
+.contact-input{
+  width: 17em;
+  margin: 0 auto;
+  font-size: 2.0em;
+}
+.contact-input-name, .contact-input-email, .contact-input-message{
+  width: 100%;  
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(165, 165, 165);
+  color:  rgb(165, 165, 165);
+  margin-bottom: 1em;
+}
+.contact-input-name{
+  height:2em;
+}
+.contact-input-email{
+  height:2em;
+}
+.contact-input-message{
+  height:15em;
+}
+
+.contact-click{
+  width: 20em;
+  margin: 0 auto;
+}
+.contact-click-button{
+  width: 100%;
+  font-size: 2.0em;
+  border-color: rgb(100, 210, 163);
+  background-color:  rgb(100, 210, 163);
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited,
+ .btn-primary:focus{
+   background-color: rgb(100, 210, 163);
+  border-color: rgb(100, 210, 163);
+ }
