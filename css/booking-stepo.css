@@ -60,6 +60,9 @@
 	color: #cbcbcb;
 	text-align: right;
 }
+.menu-title-mm{
+	max-height: 50px;
+}
 .icon-bar-color {
 
 	margin-top: 4px;
@@ -73,7 +76,7 @@
 	text-decoration:none;
 
 }
-@media(max-width: 768px){
+@media(max-width: 767px){
 	.nav-panel{
 		width: 90%;
 		position: fixed;
