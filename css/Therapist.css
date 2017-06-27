@@ -6,47 +6,95 @@
   
 }
 /*--页面头部--*/
-.booking-nav {
-	border-bottom: 1px solid #e2fced;
+.navigation{
+	height: 50px;
+	width: 100%;
 }
-.booking-nav-button {
-	border: 1px solid #fff;
+.nav-txt-mobile {
+	color: #82d9b4;
+	font-size: 1.4em;
+	line-height: 50px;
+}
+.nav-txt-mas {
+	color: #64d2a3;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.nav-brand{
+	margin-left: 10px;
 }
 .navbar-right>li>a {
 	color: #999;
 	background-color: #fff;
 }
-.nav-txt-mobile {
-	color: #82d9b4;
-}
-.nav-txt-mas {
-	color: #64d2a3;
-	font-weight: bold;
-}
 .nav-active {
 	font-weight: bold;
 }
-.icon-bar-color {
-	background-color: #999;
-}
 .booking-signin {
-	color: #64d2a3;
+	color: #82d9b4;
+	margin: 0 35px;
+}
+.nav-button{
+	margin: 20px;
+	height: 30px;
+	width: 30px;
+	cursor:pointer
+}
+.menu-title{
+	height: 50px;
+	line-height: 50px;
+    text-align: center;
+	background-color:#fff;
+	color: #6d6d6d;
+	padding: 0 10px;
+}
+.menu-txt{
+	font-size: 2em;
+	color: #cbcbcb;
+	text-align: left;
 }
 
+.menu-close {
+	font-size: 2em;
+	line-height: 50px;
+	color: #cbcbcb;
+	text-align: right;
+}
+.menu-title-mm{
+	max-height: 50px;
+}
+.icon-bar-color {
+
+	margin-top: 4px;
+	background-color: #999;
+	display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navigation-nav>a{
+	text-decoration:none;
+
+}
+@media(max-width: 767px){
+	.nav-panel{
+		width: 90%;
+		position: fixed;
+        right: -1000px;
+        top: 0;
+        z-index: 3000;
+	}
+	.navigation-nav{
+		margin: 0;
+	}
+	.booking-signin {
+	color: #82d9b4;
+	margin: 0;
+}
+}
 /*--------------body-------------*/
 
-/*--主题--*/
 
-.pgbody-title {
-   
-   text-align: center;
-   margin-left: auto;
-   margin-top: auto;
-   font-weight: 100;
-   font-size: 20px;
-   
-   color: #64d2a3;
-}
 
 
 
@@ -58,6 +106,7 @@
 	height: 1000px;
 	width: 100%;
 }
+/*--主题--*/
 .pgbody-title-first{
 	margin-top: 5%;
 	width: 100%;
@@ -65,6 +114,16 @@
 	font-family: console;
 	color:#9c9c9c;
 	text-align: center;
+}
+.pgbody-title {
+   
+   text-align: center;
+   margin-left: auto;
+   margin-top: auto;
+   font-weight: 100;
+   font-size: 20px;
+ 
+   color: #64d2a3;
 }
 
 .pgbody img{
@@ -151,19 +210,83 @@
 	height: 1000px;
 	width: 100%;
 }
+/*--主题--*/
 .pgbody-title-first{
 	margin-top: 5%;
-	
+	font-size: 20px;
 	font-weight: 100;
 	font-family: console;
 	color:#9c9c9c;
 	text-align: center;
+	margin-left: 15%;
 }
+.pgbody-title {
+   
+   text-align: center;
+   margin-left: auto;
+   margin-top: auto;
+   font-weight: 200;
+   font-size: 15px;
+   
+   color: #64d2a3;
+}
+
 .pgbody-mdpartm{
 	float: left;
 	margin-left: 0%;
     width: 30%;
     height: 200px;
+}
+img{
+  
+  margin-left: 0%;
+  height: 100%;
+  width:130px;
+}
+.pgbody-mdpartl{
+    margin-top:5%; 
+    margin-left: 0%;
+	height: 40%;
+	width: 100%;
+
+}
+.pgbody-mdpartr{
+	margin-top:5%; 
+	margin-left: 0%;
+	height: 40%;
+	width:100%;
+}
+
+.introduce{
+	
+	height: 220px;
+	width: 200px;
+	margin-left: -5%;	
+	margin-top: 2%;
+	margin-right: 20%;
+
+}
+/*--影评左右内容--*/
+.introducet{
+	
+	height: 30px;
+	width:50% ;
+	font-weight: 15px;
+	margin-left: 5%;
+	margin-top:0px;
+	color: #64d2a3;
+	text-align: left;
+}
+.introducemain{
+	float: left;
+	height: 80%;
+	width:100% ;
+	font-weight: 15px;
+	margin-left: 5%;
+	margin-right: 20%;
+	margin-top:3%;
+	color: #9c9c9c;
+	word-break: break-word;
 }
 
 .booking-title {
@@ -196,6 +319,7 @@
 	height: 1000px;
 	width: 100%;
 }
+/*--主题--*/
 .pgbody-title-first{
 	margin-top: 5%;
 	
@@ -204,6 +328,17 @@
 	color:#9c9c9c;
 	text-align: center;
 }
+.pgbody-title {
+   
+   text-align: center;
+   margin-left: auto;
+   margin-top: auto;
+   font-weight: 100;
+   font-size: 20px;
+ 
+   color: #64d2a3;
+}
+
 .pgbody-mdpartm{
 	float: left;
 	margin-left: 0%;
@@ -297,6 +432,16 @@
 	font-family: console;
 	color:#9c9c9c;
 	text-align: center;
+}
+.pgbody-title {
+   
+   text-align: center;
+   margin-left: auto;
+   margin-top: auto;
+   font-weight: 100;
+   font-size: 20px;
+ 
+   color: #64d2a3;
 }
 .pgbody-mdpartm{
 	float: left;
