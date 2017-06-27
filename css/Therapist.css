@@ -3,7 +3,7 @@
 .content{
   
 }
-/*--页面头部--*/
+/*导航*/
 .navigation{
 	height: 50px;
 	width: 100%;
@@ -30,10 +30,10 @@
 }
 .booking-signin {
 	color: #82d9b4;
-	margin: 0 35px;
+	margin: 0 28px;
 }
 .nav-button{
-	margin: 20px;
+	margin: 15px;
 	height: 30px;
 	width: 30px;
 	cursor:pointer
@@ -70,9 +70,11 @@
     height: 2px;
     border-radius: 1px;
 }
-.navigation-nav>a{
+.navigation-nav a{
 	text-decoration:none;
-
+	color: #999;
+	background-color: #fff;
+	border-top: 1px solid  #ebebeb;
 }
 @media(max-width: 767px){
 	.nav-panel{
