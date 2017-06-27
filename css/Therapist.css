@@ -191,11 +191,11 @@
 	color: #fff;
 	padding-top: 50px;
 	text-align: center;
-	height: 30%;
+	height: 25%;
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 800px;
+	margin-top: 10%;
 }
 .bottom-title {
 	margin-bottom: 0px;
@@ -205,9 +205,9 @@
 
 
 /*------iphone6-----*/
-@media(max-width: 436px){
+@media(max-width: 395px){
 .content{
-	height: 1000px;
+   height: 700px;
 	width: 100%;
 }
 /*--主题--*/
@@ -226,7 +226,7 @@
    margin-left: auto;
    margin-top: auto;
    font-weight: 200;
-   font-size: 15px;
+   font-size: 14px;
    
    color: #64d2a3;
 }
@@ -235,13 +235,13 @@
 	float: left;
 	margin-left: 0%;
     width: 30%;
-    height: 200px;
+    height: 100%;
 }
 img{
   
   margin-left: 0%;
   height: 100%;
-  width:130px;
+  width:100%;
 }
 .pgbody-mdpartl{
     margin-top:5%; 
@@ -259,32 +259,25 @@ img{
 
 .introduce{
 	
-	height: 220px;
-	width: 200px;
-	margin-left: -5%;	
+	height: 100%;
+	width:60%;
 	margin-top: 2%;
-	margin-right: 20%;
 
 }
 /*--影评左右内容--*/
 .introducet{
 	
-	height: 30px;
-	width:50% ;
-	font-weight: 15px;
-	margin-left: 5%;
-	margin-top:0px;
+	height: 30%;
+	width:100% ;
+	font-weight: 8px;
 	color: #64d2a3;
 	text-align: left;
 }
 .introducemain{
 	float: left;
-	height: 80%;
+	height: 100%;
 	width:100% ;
-	font-weight: 15px;
-	margin-left: 5%;
-	margin-right: 20%;
-	margin-top:3%;
+	font-size: 10px;
 	color: #9c9c9c;
 	word-break: break-word;
 }
@@ -303,7 +296,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 550%;
+	margin-top: 20%;
 	float: bottom;
 }
 .bottom-title {
@@ -314,7 +307,7 @@ img{
 
 /*---------大于ihone6的response-------*/
 
-@media(min-width: 436px) and (max-width:500px ){
+@media(min-width: 395px) and (max-width:500px ){
 .content{
 	height: 1000px;
 	width: 100%;
@@ -322,11 +315,12 @@ img{
 /*--主题--*/
 .pgbody-title-first{
 	margin-top: 5%;
-	
+	width: 70%;
 	font-weight: 100;
 	font-family: console;
 	color:#9c9c9c;
 	text-align: center;
+	margin-left: 15%;
 }
 .pgbody-title {
    
@@ -342,14 +336,14 @@ img{
 .pgbody-mdpartm{
 	float: left;
 	margin-left: 0%;
-    width: 160px;
+    width: 40%;
     height: 200px;
 }
  img{
   
   margin-left: 0%;
   height: 100%;
-  width:130px;
+  width:70%;
 }
 .pgbody-mdpartl{
     margin-top:5%; 
@@ -369,9 +363,9 @@ img{
 	
 	height: 220px;
 	width: 200px;
-	margin-left: -5%;	
+	margin-left: 0%;	
 	margin-top: 2%;
-	margin-right: 20%;
+	margin-right:0%;
 
 }
 /*--影评左右内容--*/
@@ -391,7 +385,7 @@ img{
 	width:100% ;
 	font-weight: 15px;
 	margin-left: 5%;
-	margin-right: 20%;
+	margin-right: 0%;
 	margin-top:3%;
 	color: #9c9c9c;
 	word-break: break-word;
@@ -411,7 +405,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 550%;
+	margin-top:50%;
 	float: bottom;
 }
 .bottom-title {
@@ -515,7 +509,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 550%;
+	margin-top: 50%;
 	float: bottom;
 }
 .bottom-title {
