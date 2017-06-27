@@ -140,3 +140,15 @@
 .sign-rule, .sign-rules{
   font-size: 1.5em;
 }
+.bottom {
+  color: #fff;
+  padding-top: 50px;
+  text-align: center;
+  height: 30%;
+  width: 100%;
+  background-color: #28ab8b;
+  margin-top: 200px;  
+}
+.bottom-title {
+  margin-bottom: 50px;
+}
