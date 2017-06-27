@@ -6,43 +6,6 @@
  * @date    2017-06-21 20:38:33
  * @version $Id$
  */
-/* .booking-nav {
-    z-index: 3000;
-	border-bottom: 1px solid #e2fced;
-	background-color: #fff;
-}
-.booking-nav-button {
-	border: 1px solid #fff;
-}
-.navbar-right>li>a {
-	color: #999;
-	background-color: #fff;
-}
-.nav-txt-mobile {
-	color: #82d9b4;
-}
-.nav-txt-mas {
-	color: #64d2a3;
-	font-weight: bold;
-}
-.nav-active {
-	font-weight: bold;
-}
-.icon-bar-color {
-	background-color: #999;
-}
-.booking-signin {
-	color: #82d9b4;
-}
-@media(max-width:768px) {
-	.navbar-title {
-		width: 100%;
-		float: left;
-	}
-	.booking-nav {
-		border:0;
-	}
-} */
 /*导航*/
 .navigation{
 	height: 50px;
@@ -70,7 +33,7 @@
 }
 .booking-signin {
 	color: #82d9b4;
-	margin: 0 35px;
+	margin: 0 28px;
 }
 .nav-button{
 	margin: 20px;
@@ -110,8 +73,11 @@
     height: 2px;
     border-radius: 1px;
 }
-.navigation-nav>a{
+.navigation-nav a{
 	text-decoration:none;
+	color: #999;
+	background-color: #fff;
+	border-bottom: 1px solid  #82d9b4;
 
 }
 @media(max-width: 767px){
@@ -257,9 +223,9 @@
 }
 .bottom {
 	color: #fff;
-	padding-top: 50px;
+	padding-top: 100px;
 	text-align: center;
-	height: 30%;
+	height: 300px;
 	width: 100%;
 	background-color: #28ab8b;
 	margin-top: 200px;	
