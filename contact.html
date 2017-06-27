@@ -20,19 +20,22 @@
     <link rel="stylesheet" media="screen and (min-device-width: 1025px) and (max-device-width: 2000px)" href="css/contact.css"/>
   </head>
   <body>
-    <nav class="navbar  booking-nav " role="navigation">
-      <div class="navbar-header navbar-title">
-        <button type="button" class="navbar-toggle booking-nav-button" data-toggle="collapse"
-        data-target="#example-navbar-collapse">
-        <span class="sr-only">切换导航</span>
-        <span class="icon-bar icon-bar-color"></span>
-        <span class="icon-bar icon-bar-color"></span>
-        <span class="icon-bar icon-bar-color"></span>
-        </button>
-        <a class="navbar-brand " href="#"><span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span> </a>
+    <div class="navigation">
+      <div class="nav-brand pull-left">
+        <span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span>
       </div>
-      <div class="collapse navbar-collapse" id="example-navbar-collapse">
-        <ul class="nav navbar-nav  navbar-right">
+      <div class="nav-panel pull-right ">
+        <ul class="nav navbar-nav  navbar-right navigation-nav">
+            <a href="#">
+              <div class="menu-title visible-xs row">
+                  <div class="col-xs-3 menu-txt">MENU</div>
+                
+                <div class="menu-title-mm col-xs-7"><span class="nav-txt-mobile">Mobile</span>
+                <span class="nav-txt-mas"> massages</span></div>
+                <i class="fa fa-close menu-close col-xs-2"></i>
+              </div>
+            </a>
+          
           <li class="nav-active"><a href="#">Home</a></li>
           <li><a href="#">Booking</a></li>
           <li><a href="#">Therapist</a></li>
@@ -40,11 +43,17 @@
           <li><a href="#">Pricing</a></li>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Contact Us</a></li>
-          <li><a href="#"><span class="booking-signin">Sign in</span></a></li>
-          
+          <li><a href="#"><span class="booking-signin">Sign in</span></a></li>      
         </ul>
+
       </div>
-    </nav>
+      <div class="nav-button pull-right  visible-xs">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar-color"></span>
+        <span class="icon-bar-color"></span>
+        <span class="icon-bar-color"></span>
+      </div>
+    </div>
     <div class="contact">
       <div class="contact-title">CONTACT US</div>
       <div class="contact-connect">
@@ -69,7 +78,11 @@
         onclick="window.open('http://www.baidu.com.cn')">SEND</button>
       </div>
     </div>
+      <!-- jQuery (Bootstrap必需) -->
+    <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/booking-steps.js"></script>
 
-    <script type="text/javascript" src="lib/contact.js"></script>
+    
   </body>
 </html>
