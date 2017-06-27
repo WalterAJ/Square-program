@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 .content{
   
 }
@@ -226,7 +224,9 @@
    margin-left: auto;
    margin-top: auto;
    font-weight: 200;
+
    font-size: 14px;
+
    
    color: #64d2a3;
 }
@@ -281,6 +281,57 @@ img{
 	color: #9c9c9c;
 	word-break: break-word;
 }
+img{
+  
+  margin-left: 0%;
+  height: 100%;
+  width:130px;
+}
+.pgbody-mdpartl{
+    margin-top:5%; 
+    margin-left: 0%;
+	height: 40%;
+	width: 100%;
+
+}
+.pgbody-mdpartr{
+	margin-top:5%; 
+	margin-left: 0%;
+	height: 40%;
+	width:100%;
+}
+
+.introduce{
+	
+	height: 220px;
+	width: 200px;
+	margin-left: -5%;	
+	margin-top: 2%;
+	margin-right: 20%;
+
+}
+/*--影评左右内容--*/
+.introducet{
+	
+	height: 30px;
+	width:50% ;
+	font-weight: 15px;
+	margin-left: 5%;
+	margin-top:0px;
+	color: #64d2a3;
+	text-align: left;
+}
+.introducemain{
+	float: left;
+	height: 80%;
+	width:100% ;
+	font-weight: 15px;
+	margin-left: 5%;
+	margin-right: 20%;
+	margin-top:3%;
+	color: #9c9c9c;
+	word-break: break-word;
+}
 
 .booking-title {
 		font-size: 20px;
@@ -332,6 +383,18 @@ img{
  
    color: #64d2a3;
 }
+
+.pgbody-title {
+   
+   text-align: center;
+   margin-left: auto;
+   margin-top: auto;
+   font-weight: 100;
+   font-size: 20px;
+ 
+   color: #64d2a3;
+}
+
 
 .pgbody-mdpartm{
 	float: left;

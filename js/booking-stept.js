@@ -31,3 +31,11 @@ $(".radio").on("click", function() {
 	$(".radio").removeClass("radio-active");
 	$(this).addClass("radio-active");
 })
+$(".radio-cus").on("click", function() {
+	$(".inputbox-acc").hide();
+	$(".inputbox-cus").show();
+});
+$(".radio-acc").on("click", function() {
+	$(".inputbox-cus").hide();
+	$(".inputbox-acc").show();
+});
