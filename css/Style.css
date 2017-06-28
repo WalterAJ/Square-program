@@ -4,7 +4,7 @@
 }
 
 /*导航*/
-.navigation{
+.navigation {
 	height: 50px;
 	width: 100%;
 }
@@ -18,7 +18,7 @@
 	font-weight: bold;
 	font-size: 1.4em;
 }
-.nav-brand{
+.nav-brand {
 	margin-left: 10px;
 }
 .navbar-right>li>a {
@@ -32,69 +32,66 @@
 	color: #82d9b4;
 	margin: 0 28px;
 }
-.nav-button{
+.nav-button {
 	margin: 15px;
 	height: 30px;
 	width: 30px;
-	cursor:pointer
+	cursor: pointer
 }
-.menu-title{
+.menu-title {
 	height: 50px;
 	line-height: 50px;
-    text-align: center;
-	background-color:#fff;
+	text-align: center;
+	background-color: #fff;
 	color: #6d6d6d;
 	padding: 0 10px;
 }
-.menu-txt{
+.menu-txt {
 	font-size: 2em;
 	color: #cbcbcb;
 	text-align: left;
 }
-
 .menu-close {
 	font-size: 2em;
 	line-height: 50px;
 	color: #cbcbcb;
 	text-align: right;
 }
-.menu-title-mm{
+.menu-title-mm {
 	max-height: 50px;
 }
 .icon-bar-color {
-
 	margin-top: 4px;
 	background-color: #999;
 	display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
 }
-.navigation-nav a{
-	text-decoration:none;
+.navigation-nav a {
+	text-decoration: none;
 	color: #999;
 	background-color: #fff;
 	border-top: 1px solid  #ebebeb;
 }
-@media(max-width: 767px){
-	.nav-panel{
+@media(max-width:767px) {
+	.nav-panel {
 		width: 90%;
 		height: 100%;
 		background-color: #fff;
 		position: fixed;
-        right: -1000px;
-        top: 0;
-        z-index: 3000;
+		right: -1000px;
+		top: 0;
+		z-index: 3000;
 	}
-	.navigation-nav{
+	.navigation-nav {
 		margin: 0;
 	}
 	.booking-signin {
-	color: #82d9b4;
-	margin: 0;
+		color: #82d9b4;
+		margin: 0;
+	}
 }
-}
-
 
 /*--------------body-------------*/
 
@@ -115,13 +112,15 @@
 	font-size: 15px;
 	color: gray;
 }
+
 /*--font图标--*/
 .pgbodyfont {
-		width: 20%;
-		height: 100%;
-		font-size: 3em;
-		color: #28ab8b;
-	}
+	width: 20%;
+	height: 100%;
+	font-size: 3em;
+	color: #28ab8b;
+}
+
 /*----PC---*/
 @media(min-width:768px) {
 
@@ -168,12 +167,13 @@
 		width: 30%;
 		height: 25%;
 	}
+
 	/*--文字位置--*/
 	.pgbodym {
-	widows: 40%;
-	height: 100%;
-	margin-left: 3%;
-    }
+		widows: 40%;
+		height: 100%;
+		margin-left: 3%;
+	}
 
 	/*--按钮--*/
 	.pgbutton {
@@ -198,7 +198,7 @@
 }
 
 /*----othertype---*/
-@media(max-width:768px) and (min-width: 436px) {
+@media(max-width:768px) and (min-width:436px) {
 
 	/*--标题--*/
 	.pgbody-title {
@@ -244,13 +244,14 @@
 		height: 25%;
 		margin-left: 5%;
 	}
+
 	/*--文字位置--*/
 	.pgbodym {
-	widows: 40%;
-	height: 100%;
-	margin-left: 20%;
-    }
-	
+		widows: 40%;
+		height: 100%;
+		margin-left: 20%;
+	}
+
 	/*--按钮--*/
 	.pgbutton {
 		width: 100%;
@@ -272,6 +273,7 @@
 		margin-top: 3%;
 	}
 }
+
 /*--mobile--*/
 @media(max-width:436px) {
 
@@ -318,12 +320,12 @@
 		height: 25%;
 		margin-top: 7%;
 	}
+
 	/*--文字位置--*/
 	.pgbodym {
-	widows: 40%;
-	height: 100%;
-    }
-
+		widows: 40%;
+		height: 100%;
+	}
 
 	/*--按钮--*/
 	.pgbutton {
