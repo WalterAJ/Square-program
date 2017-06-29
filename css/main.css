@@ -5,7 +5,7 @@ text-align: center;
 height: 300px;
 width: 100%;
 background-color: #28ab8b;
-margin-top: 200px;
+margin-top: 0%;
 }
 .bottom-title {
 margin-bottom: 50px;
@@ -170,7 +170,7 @@ img{
 	height: 100%;
 }
 #content{
-height: 7500px;
+height: 6300px;
 }
 .rowbo{
 margin-top: 50px;
