@@ -1,3 +1,16 @@
+.bottom {
+color: #fff;
+padding-top: 100px;
+text-align: center;
+height: 100%;
+width: 100%;
+background-color: #28ab8b;
+margin-top: 200px;
+}
+.bottom-title {
+margin-bottom: 50px;
+}   
+
 .navigation{
   height: 50px;
   width: 100%;
@@ -24,10 +37,10 @@
 }
 .booking-signin {
   color: #82d9b4;
-  margin: 0 35px;
+  margin: 0 28px;
 }
 .nav-button{
-  margin: 20px;
+  margin: 15px;
   height: 30px;
   width: 30px;
   cursor:pointer
@@ -64,13 +77,17 @@
     height: 2px;
     border-radius: 1px;
 }
-.navigation-nav>a{
+.navigation-nav a{
   text-decoration:none;
-
+  color: #999;
+  background-color: #fff;
+  border-top: 1px solid  #ebebeb;
 }
 @media(max-width: 767px){
   .nav-panel{
     width: 90%;
+    height: 100%;
+    background-color: #fff;
     position: fixed;
         right: -1000px;
         top: 0;
@@ -84,32 +101,38 @@
   margin: 0;
 }
 }
+
+
 .forget{
 	width: 100%;
 	margin-top: 50px;
 	text-align: center;
 }
 .forget-clues{
-	width: 330px;
-	margin: 0 auto;
+	width: 100%;
+  margin: 0 auto;
 	color: rgb(159, 159, 159);
 	margin-bottom: 34px;
 }
-.forget-email,.forget-address, .forget-reset,
-.forget-address-input, .forget-address-button{
-	width: 254px;
-	margin: 0 auto;
+.forget-email,.forget-address, .forget-reset{
+  width: 17em;
+  margin: 0 auto;
+}
+.forget-address-input, .forget-address-button,
+.forget-email-word{
+  width: 100%;	
 }
 .forget-clues-word{
-	font-size: 30px;
+	font-size: 2em;
 }
 .forget-email{	
 	color: rgb(159, 159, 159);
 }
-.forget-emial-word, .forget-address-input{
+.forget-email-word, .forget-address-input{
 	font-size: 10px;
-	float: left;
-	clear: both;
+}
+.forget-email-word{
+  text-align: left;
 }
 .forget-address-input{
 	border-style: solid;
@@ -120,16 +143,4 @@
 .forget-address-button{
 	background-color: rgb(100, 210, 163);
 	color: #ffffff;
-}
-.bottom {
-  color: #fff;
-  padding-top: 50px;
-  text-align: center;
-  height: 30%;
-  width: 100%;
-  background-color: #28ab8b;
-  margin-top: 200px;  
-}
-.bottom-title {
-  margin-bottom: 50px;
 }
