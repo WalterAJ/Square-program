@@ -6,6 +6,8 @@ height: 300px;
 width: 100%;
 background-color: #28ab8b;
 margin-top: 500px;
+margin-top: 10%;
+
 }
 .bottom-title {
 margin-bottom: 50px;
@@ -169,7 +171,13 @@ img{
 	width: 100%;
 	height: 100%;
 }
+<<<<<<< HEAD
 
+=======
+#content{
+height: 6300px;
+}
+>>>>>>> origin/master
 .rowbo{
 margin-top: 50px;
 }

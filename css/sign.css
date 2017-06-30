@@ -1,3 +1,15 @@
+.bottom {
+color: #fff;
+padding-top: 100px;
+text-align: center;
+height: 300px;
+width: 100%;
+background-color: #28ab8b;
+margin-top: 200px;
+}
+.bottom-title {
+margin-bottom: 50px;
+}
 .navigation{
   height: 50px;
   width: 100%;
@@ -24,10 +36,10 @@
 }
 .booking-signin {
   color: #82d9b4;
-  margin: 0 35px;
+  margin: 0 28px;
 }
 .nav-button{
-  margin: 20px;
+  margin: 15px;
   height: 30px;
   width: 30px;
   cursor:pointer
@@ -64,13 +76,17 @@
     height: 2px;
     border-radius: 1px;
 }
-.navigation-nav>a{
+.navigation-nav a{
   text-decoration:none;
-
+  color: #999;
+  background-color: #fff;
+  border-top: 1px solid  #ebebeb;
 }
 @media(max-width: 767px){
   .nav-panel{
     width: 90%;
+    height: 100%;
+    background-color: #fff;
     position: fixed;
         right: -1000px;
         top: 0;
@@ -84,17 +100,23 @@
   margin: 0;
 }
 }
+
 .sign{
   width: 100%;
   text-align: center;
 }
 .sign-title{
-  font-size: 30px;
+  width: 10em;
+  font-size: 2em;
+  text-align: center;
   color: rgb(153, 153, 153);
-  margin-bottom: 1.5em;
+  margin: 0 auto 1.5em;
+}
+.sign-title-word{
+
 }
 .sign-content, .sign-direction, .sign-click, .sign-rule, .sign-rules{
-  width: 271px;
+  width: 20em;
   margin: 0 auto;
 }
 .sign-content{
@@ -133,15 +155,3 @@
   font-size: 0.7em;
 }
 
-.bottom {
-  color: #fff;
-  padding-top: 50px;
-  text-align: center;
-  height: 30%;
-  width: 100%;
-  background-color: #28ab8b;
-  margin-top: 200px;  
-}
-.bottom-title {
-  margin-bottom: 50px;
-}
