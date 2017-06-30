@@ -145,6 +145,13 @@
 .booking-dinput-item {
 	width: 40%;
 }
+.apply-continue{
+	width: 100%;
+	margin-top:22px;
+	border-radius: 0;
+	border-color:  #64d2a3;
+	background-color: #64d2a3;
+}
 .booking-input-title {
 	text-align: left;
 	font-size: 17px;
@@ -196,6 +203,7 @@
 .cutting-txt {
 	line-height: 60px;
 }
+/*继续按钮*/
 .booking-continue {
 	margin-top: 30px;
 	width: 200px;
