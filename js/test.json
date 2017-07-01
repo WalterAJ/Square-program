@@ -1,0 +1,10 @@
+  {
+    "name": "Robert",
+    "nickname": "Bob",
+    "showNickname": true
+  },
+  {
+    "name": "Susan",
+    "nickname": "Sue",
+    "showNickname": false
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5,maximum-scale=2.0, user-scalable=yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 上述3个meta标签必须放在最前面，任何其他内容都必须跟随其后！ -->
+        <title>test</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+        <!-- Data Range Picker -->
+        <link rel="stylesheet" type="text/css" href="lib/daterangepicker/daterangepicker.css">
+        <!-- Bootstrap sortable table -->
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap-table/bootstrap-table.css">
+        <!-- Custom Theme Style -->
+        <link rel="stylesheet" type="text/json" href="js/test.js">
+        <link rel="stylesheet" type="text/javascript" href="js/jsrender.js">
+        
+    </head>
+    <body>
+        <div id="result"></div>
+        <script id="theTmpl" type="text/x-jsrender">
+        <div>
+            <em>Name:</em> {{:name}}
+            {{if showNickname && nickname}}
+            (Goes by <em>{{:nickname}}</em>)
+            {{/if}}
+        </div>
+        </script>
+        
+        <!-- jQuery (Bootstrap必需) -->
+        <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Moment -->
+        <script type="text/javascript" src="lib/momentjs/moment.min.js"></script>
+        <!-- Date Range Picker -->
+        <script type="text/javascript" src="lib/daterangepicker/daterangepicker.js"></script>
+        <!-- bootstrap sortable table -->
+        <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table.js"></script>
+        <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
+        <!-- 自定义 -->
+        <script type="text/javascript" src="js/test.json"></script>
+    </body>
+</html>

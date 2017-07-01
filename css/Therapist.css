@@ -4,7 +4,7 @@
   
 }
 /*导航*/
-.navigation{
+.navigation {
 	height: 50px;
 	width: 100%;
 }
@@ -18,7 +18,7 @@
 	font-weight: bold;
 	font-size: 1.4em;
 }
-.nav-brand{
+.nav-brand {
 	margin-left: 10px;
 }
 .navbar-right>li>a {
@@ -32,65 +32,65 @@
 	color: #82d9b4;
 	margin: 0 28px;
 }
-.nav-button{
+.nav-button {
 	margin: 15px;
 	height: 30px;
 	width: 30px;
-	cursor:pointer
+	cursor: pointer
 }
-.menu-title{
+.menu-title {
 	height: 50px;
 	line-height: 50px;
-    text-align: center;
-	background-color:#fff;
+	text-align: center;
+	background-color: #fff;
 	color: #6d6d6d;
 	padding: 0 10px;
 }
-.menu-txt{
+.menu-txt {
 	font-size: 2em;
 	color: #cbcbcb;
 	text-align: left;
 }
-
 .menu-close {
 	font-size: 2em;
 	line-height: 50px;
 	color: #cbcbcb;
 	text-align: right;
 }
-.menu-title-mm{
+.menu-title-mm {
 	max-height: 50px;
 }
 .icon-bar-color {
-
 	margin-top: 4px;
 	background-color: #999;
 	display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
 }
-.navigation-nav a{
-	text-decoration:none;
+.navigation-nav a {
+	text-decoration: none;
 	color: #999;
 	background-color: #fff;
 	border-top: 1px solid  #ebebeb;
 }
-@media(max-width: 767px){
-	.nav-panel{
+@media(max-width:767px) {
+	.nav-panel {
 		width: 90%;
+		height: 100%;
+		background-color: #fff;
 		position: fixed;
-        right: -1000px;
-        top: 0;
-        z-index: 3000;
+		right: -1000px;
+		top: 0;
+		z-index: 3000;
 	}
-	.navigation-nav{
+	.navigation-nav {
 		margin: 0;
 	}
 	.booking-signin {
-	color: #82d9b4;
-	margin: 0;
-}
+		color: #82d9b4;
+		margin: 0;
+	}
 }
 /*--------------body-------------*/
 
@@ -131,15 +131,15 @@
   margin-left: 0%;
 
    height: 220px;
-   width: 120px;
+   width: 170px;
 }
 
 /*--影评内容左右部分--*/
 .pgbody-mdpartl{
 	margin-top:2%; 
-    margin-left: 10%;
+    margin-left: 6%;
     
-	height: 40%;
+	height: 50%;
 	width: 40%;	
 
 }
@@ -154,35 +154,27 @@
 	float: left;
 	margin-left: 20%;
 	margin-right: 0px;
-	width:
-	width: 50%;
 }
 /*--文字--*/
 .introduce{
 	
 	height: 220px;
-	width: 200px;
-	margin-left: -10px;	
-	margin-right: 92px;
+	width: 200px；
 
 }
 .introducet{
 	
 	height: 30px;
 	width:200px ;
-	font-weight: 15px;
-	margin-left: 0%;
-	margin-top:0;
+	font-family: Arial;
+	font-size: 20px;
 	color: #64d2a3;
 }
 .introducemain{
 	float: left;
 	height: 160px;
 	width:200px ;
-	font-weight: 15px;
-	margin-left: 0px;
-	margin-right: 20%;
-	margin-top:0;
+	font-size: 15px;
 	color: #9c9c9c;
 	word-break: break-word;
 }
@@ -204,7 +196,7 @@
 
 
 
-/*------iphone6-----*/
+/*------小于395px-----*/
 @media(max-width: 395px){
 .content{
    height: 700px;
@@ -218,7 +210,7 @@
 	font-family: console;
 	color:#9c9c9c;
 	text-align: center;
-	margin-left: 15%;
+
 }
 .pgbody-title {
    
@@ -241,64 +233,18 @@
 }
 img{
   
-  margin-left: 0%;
-  height: 100%;
-  width:100%;
-}
-.pgbody-mdpartl{
-    margin-top:5%; 
-    margin-left: 0%;
-	height: 40%;
-	width: 100%;
-
-}
-.pgbody-mdpartr{
-	margin-top:5%; 
-	margin-left: 0%;
-	height: 40%;
-	width:100%;
-}
-
-.introduce{
-	
-	height: 100%;
-	width:60%;
-	margin-top: 2%;
-
-}
-/*--影评左右内容--*/
-.introducet{
-	
-	height: 30%;
-	width:100% ;
-	font-weight: 8px;
-	color: #64d2a3;
-	text-align: left;
-}
-.introducemain{
-	float: left;
-	height: 100%;
-	width:100% ;
-	font-size: 10px;
-	color: #9c9c9c;
-	word-break: break-word;
-}
-img{
-  
-  margin-left: 0%;
+  margin-left: 15%;
   height: 100%;
   width:130px;
 }
 .pgbody-mdpartl{
-    margin-top:5%; 
-    margin-left: 0%;
+    margin-top:10%; 
 	height: 40%;
 	width: 100%;
 
 }
 .pgbody-mdpartr{
-	margin-top:5%; 
-	margin-left: 0%;
+	margin-top:20%; 
 	height: 40%;
 	width:100%;
 }
@@ -307,33 +253,30 @@ img{
 	
 	height: 220px;
 	width: 200px;
-	margin-left: -5%;	
 	margin-top: 2%;
 	margin-right: 20%;
 
 }
+
 /*--影评左右内容--*/
 .introducet{
 	
-	height: 30px;
+	height: 10%;
 	width:50% ;
 	font-weight: 15px;
-	margin-left: 5%;
-	margin-top:0px;
 	color: #64d2a3;
 	text-align: left;
 }
 .introducemain{
 	float: left;
-	height: 80%;
+	height: 100%;
 	width:100% ;
 	font-weight: 15px;
-	margin-left: 5%;
-	margin-right: 20%;
-	margin-top:3%;
 	color: #9c9c9c;
 	word-break: break-word;
 }
+
+
 
 .booking-title {
 		font-size: 20px;
@@ -362,7 +305,7 @@ img{
 
 @media(min-width: 395px) and (max-width:500px ){
 .content{
-	height: 1000px;
+	height: 100%;
 	width: 100%;
 }
 /*--主题--*/
@@ -406,9 +349,9 @@ img{
 }
  img{
   
-  margin-left: 0%;
+  margin-top: 3%;
   height: 100%;
-  width:70%;
+  width:90%;
 }
 .pgbody-mdpartl{
     margin-top:5%; 
@@ -426,11 +369,8 @@ img{
 
 .introduce{
 	
-	height: 220px;
+	height: 100%;
 	width: 200px;
-	margin-left: 0%;	
-	margin-top: 2%;
-	margin-right:0%;
 
 }
 /*--影评左右内容--*/
@@ -440,7 +380,6 @@ img{
 	width:50% ;
 	font-weight: 15px;
 	margin-left: 5%;
-	margin-top:0px;
 	color: #64d2a3;
 	text-align: left;
 }
@@ -450,8 +389,6 @@ img{
 	width:100% ;
 	font-weight: 15px;
 	margin-left: 5%;
-	margin-right: 0%;
-	margin-top:3%;
 	color: #9c9c9c;
 	word-break: break-word;
 }
@@ -470,7 +407,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top:50%;
+	margin-top:250%;
 	float: bottom;
 }
 .bottom-title {
@@ -481,7 +418,7 @@ img{
 /*-----------大于500px小于768px--------*/
 @media(min-width: 500px) and (max-width:768px ){
 .content{
-	height: 1000px;
+	height:100%;
 	width: 100%;
 }
 .pgbody-title-first{
@@ -509,21 +446,20 @@ img{
     height: 200px;
 }
  img{
-  
-  margin-left: 0%;
+  margin-top: 10%;
   height: 100%;
-  width:130px;
+  width:100%;
 }
 .pgbody-mdpartl{
-    margin-top:5%; 
-    margin-left: 0%;
+    margin-top:15%; 
+    margin-left:5%;
 	height: 40%;
 	width: 100%;
 
 }
 .pgbody-mdpartr{
-	margin-top:5%; 
-	margin-left: 0%;
+	margin-top:15%; 
+	margin-left: 5%;
 	height: 40%;
 	width:100%;
 }
@@ -532,7 +468,6 @@ img{
 	
 	height: 220px;
 	width: 200px;
-	margin-left: -5%;	
 	margin-top: 2%;
 	margin-right: 20%;
 
@@ -540,11 +475,10 @@ img{
 /*--影评左右内容--*/
 .introducet{
 	
-	height: 30px;
+	height: 10%;
 	width:50% ;
 	font-weight: 15px;
 	margin-left: 5%;
-	margin-top:0px;
 	color: #64d2a3;
 	text-align: left;
 }
@@ -554,8 +488,6 @@ img{
 	width:100% ;
 	font-weight: 15px;
 	margin-left: 5%;
-	margin-right: 20%;
-	margin-top:3%;
 	color: #9c9c9c;
 	word-break: break-word;
 }
@@ -574,7 +506,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 50%;
+	margin-top: 250%;
 	float: bottom;
 }
 .bottom-title {

@@ -1,0 +1,39 @@
+
+{
+	"body":{
+	"massagist": [
+	  {
+		"name": "Anne",
+		"information": "Rose immediately puts you at ease with her cheerful smile, calm approach & friendly personality.No fuss,real pampering treat from head to toe ,we recommend you book a session with Rose!",
+		"img":"img/anne.jpg"
+	  },
+	  {
+		"name": "Carol",
+		"information": "Carol immediately puts you at ease with her cheerful smile, calm approach & friendly personality.No fuss,real pampering treat from head to toe ,we recommend you book a session with Carol!",
+		"img":"img/carol.jpg"
+	  },
+	  {
+		"name": "Kylie",
+		"information": "Kylie immediately puts you at ease with her cheerful smile, calm approach & friendly personality.No fuss,real pampering treat from head to toe ,we recommend you book a session with Kylie!",
+		"img":"img/kylie.jpg"
+	  },
+	   {
+		"name": "Lera",
+		"information": "Lera immediately puts you at ease with her cheerful smile, calm approach & friendly personality.No fuss,real pampering treat from head to toe ,we recommend you book a session with Lera!",
+		"img":"img/lera.jpg"
+	  },
+	   {
+		"name": "Molly",
+		"information": "Molly immediately puts you at ease with her cheerful smile, calm approach & friendly personality.No fuss,real pampering treat from head to toe ,we recommend you book a session with Molly!",
+		"img":"img/molly.jpg"
+	  },
+	   {
+		"name": "Rose",
+		"information": "Rose immediately puts you at ease with her cheerful smile, calm approach & friendly personality.No fuss,real pampering treat from head to toe ,we recommend you book a session with Rose!",
+		"img":"img/rose.jpg"
+	  }
+
+ 
+  ]
+}
+}
