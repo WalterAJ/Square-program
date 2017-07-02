@@ -1,10 +1,13 @@
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2017-06-23 09:04:28
- * @version $Id$
- */
 
+$(initPage);
+function initPage() {
+$.getJSON("Json/Therapist.json", function(data) {
+	headData = data.body;
+	var headHtml = $.templates("#massagistTmpl").render(headData);
+	console.log(headHtml);
+	$(".booking-therapist").append(headHtml);
+});
+}
  $(".dropdown>ul li").on("click", function(){
      $(this).parent().siblings().find(".button-input").html($(this).find("a").html());
      

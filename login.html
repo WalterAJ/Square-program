@@ -55,34 +55,36 @@
             <span class="icon-bar-color"></span>
           </div>
         </div>
-        <div class="login">
+        <form action="php/logchk.php" method="get">
+          <div class="login">
             <div class="login-title">
-                <p class="login-title-word">Login</p>
+              <p class="login-title-word">Login</p>
             </div>
             <div class="login-email" >
-                <p class="login-email-word">Email address</p>
-                <div class="login-email-input">
-                    <input class="login-email-input-control" type="text" name="fname" />
-                </div>
+              <p class="login-email-word">Email address</p>
+              <div class="login-email-input">
+                <input class="login-email-input-control" type="text" name="username" />
+              </div>
             </div>
             <div class="login-password" >
-                <div class="login-password-word">Password</div>
-                <div class="login-password-input">
-                    <input class="login-email-input-control" type="text" name="fname"/>
-                </div>
+              <div class="login-password-word">Password</div>
+              <div class="login-password-input">
+                <input class="login-email-input-control" type="password" name="password"/>
+              </div>
             </div>
             <div class="login-direction" >
-                <a href="#"><button type="button" class="btn btn-primary login-direction-button">
+              <a href="#"><button type="button" class="btn btn-primary login-direction-button">
                 <span class="glyphicon glyphicon-header"></span>
-                Sign in with Facebook</button></a>
+              Sign in with Facebook</button></a>
             </div>
             <div class="login-clues" >
-                <a class="login-clues-button" href="forget.html">Forgot Password?</a>
+              <a class="login-clues-button" href="forget.html">Forgot Password?</a>
             </div>
             <div class="login-click" >
-                <a href="sign.html"><button type="button" class="btn btn-primary login-click-button"> SIGN IN</button></a>
+              <input type="submit" class="btn btn-primary login-click-button" value="SIGN IN"> 
             </div>
-        </div>
+          </div>
+        </form>
         <div class="bottom">
             <h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
             <p>
