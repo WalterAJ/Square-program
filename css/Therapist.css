@@ -101,7 +101,7 @@
 /*--自适应缩放--*/
 
 /*----PC---*/
-@media (min-width: 767px){
+@media (min-width: 767px) and (max-width:985px ){
 .content{
 	height: 1000px;
 	width: 100%;
@@ -183,11 +183,10 @@
 	color: #fff;
 	padding-top: 50px;
 	text-align: center;
-	height: 20%;
+	height: 25%;
 	width: 100%;
 	background-color: #28ab8b;
-	position: absolute;
-	margin-top: 70%;
+	margin-top: 120%;
 }
 .bottom-title {
 	margin-bottom: 0px;
@@ -276,14 +275,14 @@
 	color: #fff;
 	padding-top: 50px;
 	text-align: center;
-	height: 25%;
+	height: 30%;
 	width: 100%;
 	background-color: #28ab8b;
-	position: absolute;
-	margin-top: 5%;
+	margin-top: 15%;
 }
 .bottom-title {
 	margin-bottom: 0px;
+
 }
 }
 
@@ -384,7 +383,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 570%;
+	margin-top: 700%;
 	float: bottom;
 }
 .bottom-title {
