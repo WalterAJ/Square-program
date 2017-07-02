@@ -79,6 +79,9 @@
 	background-color: #fff;
 	border-top: 1px solid  #ebebeb;
 }
+.navigation-nav{
+		display: flex;
+}
 @media(max-width: 767px){
 	.nav-panel{
 		width: 90%;
@@ -91,6 +94,7 @@
 	}
 	.navigation-nav{
 		margin: 0;
+		display: block;
 	}
 	.booking-signin {
 	color: #82d9b4;
