@@ -1,0 +1,51 @@
+
+{
+	"body":{
+	"massagist": [
+	  {
+		"name": "How does Mobile Massage work?",
+		"information": "Mobile Massage allows you to order a five-star massage to your home, hotel, office, or event in as little as an hour We match your massage request with a vetted, certified massage therapist available in your area at the specified.time. At your appointment time, a therapist will arrive at your door with massage table, fresh linens, lotions, oils,and music to ensure a relaxing massage. All you have to do is sit back relax, and enjoy your massage.",
+		"img":"img/anne.jpg"
+	  },
+	  {
+		"name": "What types of services are offered by Moblie Massage?",
+		"information": "Mobile Massages currently offers deep tissue, Swedish, sports, and prenatal massage. Any of these modalities can be performed as a couples massage, either with two massage therapists performing simultaneous massage or one therapists performing massage one after another Soothe also offers chair and table massage delivered to your office or event with Mobile Massages at Work and Mabila Massages Events."
+	  },
+	  {
+		"name": "How do I pick a therapist?",
+		"information": "We will match you with the highest quality massage therapist available at the time specified. You have the option to choose a male or female therapist if you have a preference, but are not able to select the exact therapist that you'd like."
+	  },
+	  {
+		"name": "How does Mobile Massage vet the therapists in its network?",
+		"information": "WeVe very careful about the massage therapists we select to join the Mobile Massage network We interview all of our therapists in person and make sure they are fully licensed and insured in their state of practice. We accept only the highest quality therapists with a history of excellence in customer satisfection. In most states the process to become a certified massage therapist CCMT) requires applicants to successfully pass background checks conducted by a state investigator, before being deemed able to safely work with the public. All Mobile Massages therapists have passed these government sponsored certification measures. In order to become a CMT, a thera-pist must also complete a minimum of 500 hours of practical training, but some states require as much as 1,000 hours. All Mobile Massage massages therapists have the highest level of integrity and professionalism. In return,we expect all clients to reciprocate the same level of respect and conduct!"
+	  },
+	  {
+		"name": "Can I rebook with the same therapist?",
+		"information": "Yes, absolutely! After your first massage with a Mobile Massages massage therapist, you will be given the option to re-book with the same therapist Keep in mind, however, we cannot guarantee that the same therapist will be available at the time you request.",
+		"img":"img/anne.jpg"
+	  },
+	  {
+		"name": "Can I book a massage directly with a theapist instead of through Mobile Massages?",
+		"information": "Mobile Massage takes the stress out of booking a massage and is able to function because of the honor system.If you enjoy massages, we hope that you will do your part in keeping our eco-system intact We strongly encourage our clients to use Mobile Massage exclusively for all of tHeir massage needs.",
+		"img":"img/anne.jpg"
+	  },
+	  {
+		"name": "How much clothing should I remove?",
+		"information": "Feel free to undress to your level of comfort. If you'd prefer to leave on undergarments, be our guest! If you feel more comfortable nude, you may undress completely and position your body under the sheet Therapists are trained to properly drape your body to protect your modesty and theirs.",
+		"img":"img/anne.jpg"
+	  },
+	  {
+		"name": "What about parking?",
+		"information": "When booking, we ask that you provide detailed parking information. If our therapist is unable to find free parking, or none is available in your area, you will be expected to reimburse the therapist for any parking costs incurred.",
+		"img":"img/anne.jpg"
+	  },
+	    {
+		"name": "What is Mobile Massaged cancellation policy?",
+		"information": "You may cancel or reschedule your appointment up to 1 hour before the appointment time with no penalty ",
+		
+		"img":"img/anne.jpg"
+	  }
+ 
+  ]
+}
+}

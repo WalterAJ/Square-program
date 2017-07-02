@@ -101,7 +101,100 @@
 /*--自适应缩放--*/
 
 /*----PC---*/
-@media (min-width: 768px){
+@media (min-width: 767px){
+.content{
+	height: 1000px;
+	width: 100%;
+}
+/*--主题--*/
+.pgbody-title-first{
+	margin-top: 5%;
+	width: 100%;
+	font-weight: 100;
+	font-family: console;
+	color:#9c9c9c;
+	text-align: center;
+}
+.pgbody-title {
+   
+   text-align: center;
+   margin-left: auto;
+   margin-top: auto;
+   font-weight: 100;
+   font-size: 20px;
+ 
+   color: #64d2a3;
+}
+
+.pgbody img{
+	float: left;
+  margin-left: 0%;
+
+   height: 220px;
+   width: 170px;
+}
+
+/*--影评内容左右部分--*/
+.pgbody-mdpartl{
+	margin-top:2%; 
+    margin-left: 6%;
+    
+	height: 50%;
+	width: 40%;	
+
+}
+.pgbody-mdpartr{
+	
+	margin-top: 2%;
+	margin-left:1%;
+	height: 40%;
+	width:40%;
+}
+.pgbody-mdpartm{
+	float: left;
+	margin-left: 20%;
+	margin-right: 0px;
+}
+/*--文字--*/
+.introduce{
+	
+	height: 220px;
+	width: 200px；
+
+}
+.introducet{
+	
+	height: 30px;
+	width:200px ;
+	font-family: Arial;
+	font-size: 20px;
+	color: #64d2a3;
+}
+.introducemain{
+	float: left;
+	height: 160px;
+	width:200px ;
+	font-size: 15px;
+	color: #9c9c9c;
+	word-break: break-word;
+}
+/*--页尾--*/
+.bottom {
+	color: #fff;
+	padding-top: 50px;
+	text-align: center;
+	height: 20%;
+	width: 100%;
+	background-color: #28ab8b;
+	position: absolute;
+	margin-top: 70%;
+}
+.bottom-title {
+	margin-bottom: 0px;
+}
+}
+
+@media (min-width: 986px){
 .content{
 	height: 1000px;
 	width: 100%;
@@ -187,13 +280,12 @@
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 .bottom-title {
 	margin-bottom: 0px;
 }
 }
-
 
 
 /*------小于395px-----*/
@@ -288,11 +380,11 @@ img{
 	color: #fff;
 	padding-top: 50px;
 	text-align: center;
-	height: 25%;
+	height: 32%;
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 330%;
+	margin-top: 570%;
 	float: bottom;
 }
 .bottom-title {
@@ -407,7 +499,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top:250%;
+	margin-top:350%;
 	float: bottom;
 }
 .bottom-title {
@@ -506,7 +598,7 @@ img{
 	width: 100%;
 	background-color: #28ab8b;
 	position: absolute;
-	margin-top: 250%;
+	margin-top: 290%;
 	float: bottom;
 }
 .bottom-title {
