@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-.content{
-  
-}
 /*导航*/
 .navigation {
 	height: 50px;
@@ -92,519 +89,344 @@
 		margin: 0;
 	}
 }
+
 /*--------------body-------------*/
 
-
-
-
+/*--函数整合部分--*/
+.content {
+	width: 100%;
+}
+.pgbody-title-first {
+	margin-top: 5%;
+	font-family: console;
+	color: #9c9c9c;
+	text-align: center;
+}
+.pgbody-title {
+	text-align: center;
+	margin-left: auto;
+	margin-top: auto;
+	font-weight: 200;
+	font-size: 20px;
+	color: #64d2a3;
+}
+.pgbody img {
+	float: left;
+	margin-left: 0%;
+	height: 220px;
+	width: 170px;
+}
+.pgbody-mdpartm {
+	float: left;
+}
+.introducet {
+	font-family: Arial;
+	color: #64d2a3;
+}
+.introducemain {
+	float: left;
+	font-size: 15px;
+	color: #9c9c9c;
+	word-break: break-word;
+}
+.bottom {
+	color: #fff;
+	padding-top: 50px;
+	text-align: center;
+	background-color: #28ab8b;
+	position: absolute;
+}
+.bottom-title {
+	margin-bottom: 0px;
+}
 
 /*--自适应缩放--*/
 
 /*----PC---*/
-@media (min-width: 767px) and (max-width:985px ){
-.content{
-	height: 1000px;
-	width: 100%;
-}
-/*--主题--*/
-.pgbody-title-first{
-	margin-top: 5%;
-	width: 100%;
-	font-weight: 100;
-	font-family: console;
-	color:#9c9c9c;
-	text-align: center;
-}
-.pgbody-title {
-   
-   text-align: center;
-   margin-left: auto;
-   margin-top: auto;
-   font-weight: 100;
-   font-size: 20px;
- 
-   color: #64d2a3;
-}
+@media (min-width:768px) and (max-width:985px) {
+	.content {
+		height: 1000px;
+	}
 
-.pgbody img{
-	float: left;
-  margin-left: 0%;
+	/*--主题--*/
+	.pgbody-title-first {
+		width: 100%;
+		font-weight: 100;
+	}
 
-   height: 220px;
-   width: 170px;
-}
+	/*--影评内容左右部分--*/
+	.pgbody-mdpartl {
+		margin-top: 2%;
+		margin-left: 6%;
+		height: 50%;
+		width: 40%;
+	}
+	.pgbody-mdpartr {
+		margin-top: 2%;
+		margin-left: 1%;
+		height: 40%;
+		width: 40%;
+	}
+	.pgbody-mdpartm {
+		margin-left: 20%;
+	}
 
-/*--影评内容左右部分--*/
-.pgbody-mdpartl{
-	margin-top:2%; 
-    margin-left: 6%;
-    
-	height: 50%;
-	width: 40%;	
+	/*--文字--*/
+	.introduce {
+		height: 220px;
+		width: 200px；
+	}
+	.introducet {
+		height: 30px;
+		width: 200px;
+		font-size: 20px;
+	}
+	.introducemain {
+		height: 160px;
+		width: 200px;
+	}
 
+	/*--页尾--*/
+	.bottom {
+		height: 25%;
+		width: 100%;
+		margin-top: 135%;
+	}
 }
-.pgbody-mdpartr{
-	
-	margin-top: 2%;
-	margin-left:1%;
-	height: 40%;
-	width:40%;
-}
-.pgbody-mdpartm{
-	float: left;
-	margin-left: 20%;
-	margin-right: 0px;
-}
-/*--文字--*/
-.introduce{
-	
-	height: 220px;
-	width: 200px；
+@media (min-width:986px) {
+	.content {
+		height: 1000px;
+	}
 
-}
-.introducet{
-	
-	height: 30px;
-	width:200px ;
-	font-family: Arial;
-	font-size: 20px;
-	color: #64d2a3;
-}
-.introducemain{
-	float: left;
-	height: 160px;
-	width:200px ;
-	font-size: 15px;
-	color: #9c9c9c;
-	word-break: break-word;
-}
-/*--页尾--*/
-.bottom {
-	color: #fff;
-	padding-top: 50px;
-	text-align: center;
-	height: 25%;
-	width: 100%;
-	background-color: #28ab8b;
-	margin-top: 120%;
-}
-.bottom-title {
-	margin-bottom: 0px;
-}
-}
+	/*--主题--*/
+	.pgbody-title-first {
+		width: 100%;
+		font-weight: 100;
+	}
 
-@media (min-width: 986px){
-.content{
-	height: 1000px;
-	width: 100%;
-}
-/*--主题--*/
-.pgbody-title-first{
-	margin-top: 5%;
-	width: 100%;
-	font-weight: 100;
-	font-family: console;
-	color:#9c9c9c;
-	text-align: center;
-}
-.pgbody-title {
-   
-   text-align: center;
-   margin-left: auto;
-   margin-top: auto;
-   font-weight: 100;
-   font-size: 20px;
- 
-   color: #64d2a3;
-}
+	/*--影评内容左右部分--*/
+	.pgbody-mdpartl {
+		margin-top: 2%;
+		margin-left: 6%;
+		height: 50%;
+		width: 40%;
+	}
+	.pgbody-mdpartr {
+		margin-top: 2%;
+		margin-left: 1%;
+		height: 40%;
+		width: 40%;
+	}
+	.pgbody-mdpartm {
+		margin-left: 20%;
+	}
 
-.pgbody img{
-	float: left;
-  margin-left: 0%;
+	/*--文字--*/
+	.introduce {
+		height: 220px;
+		width: 200px；
+	}
+	.introducet {
+		height: 30px;
+		width: 200px;
+		font-size: 20px;
+	}
+	.introducemain {
+		height: 160px;
+		width: 200px;
+	}
 
-   height: 220px;
-   width: 170px;
+	/*--页尾--*/
+	.bottom {
+		height: 30%;
+		width: 100%;
+		margin-top: 15%;
+	}
 }
-
-/*--影评内容左右部分--*/
-.pgbody-mdpartl{
-	margin-top:2%; 
-    margin-left: 6%;
-    
-	height: 50%;
-	width: 40%;	
-
-}
-.pgbody-mdpartr{
-	
-	margin-top: 2%;
-	margin-left:1%;
-	height: 40%;
-	width:40%;
-}
-.pgbody-mdpartm{
-	float: left;
-	margin-left: 20%;
-	margin-right: 0px;
-}
-/*--文字--*/
-.introduce{
-	
-	height: 220px;
-	width: 200px；
-
-}
-.introducet{
-	
-	height: 30px;
-	width:200px ;
-	font-family: Arial;
-	font-size: 20px;
-	color: #64d2a3;
-}
-.introducemain{
-	float: left;
-	height: 160px;
-	width:200px ;
-	font-size: 15px;
-	color: #9c9c9c;
-	word-break: break-word;
-}
-/*--页尾--*/
-.bottom {
-	color: #fff;
-	padding-top: 50px;
-	text-align: center;
-	height: 30%;
-	width: 100%;
-	background-color: #28ab8b;
-	margin-top: 15%;
-}
-.bottom-title {
-	margin-bottom: 0px;
-
-}
-}
-
 
 /*------小于395px-----*/
-@media(max-width: 395px){
-.content{
-   height: 700px;
-	width: 100%;
-}
-/*--主题--*/
-.pgbody-title-first{
-	margin-top: 5%;
-	font-size: 20px;
-	font-weight: 100;
-	font-family: console;
-	color:#9c9c9c;
-	text-align: center;
+@media(max-width:395px) {
+	.content {
+		height: 700px;
+	}
 
-}
-.pgbody-title {
-   
-   text-align: center;
-   margin-left: auto;
-   margin-top: auto;
-   font-weight: 200;
-
-   font-size: 14px;
-
-   
-   color: #64d2a3;
-}
-
-.pgbody-mdpartm{
-	float: left;
-	margin-left: 0%;
-    width: 30%;
-    height: 100%;
-}
-img{
-  
-  margin-left: 15%;
-  height: 100%;
-  width:130px;
-}
-.pgbody-mdpartl{
-    margin-top:10%; 
-	height: 40%;
-	width: 100%;
-
-}
-.pgbody-mdpartr{
-	margin-top:20%; 
-	height: 40%;
-	width:100%;
-}
-
-.introduce{
-	
-	height: 220px;
-	width: 200px;
-	margin-top: 2%;
-	margin-right: 20%;
-
-}
-
-/*--影评左右内容--*/
-.introducet{
-	
-	height: 10%;
-	width:50% ;
-	font-weight: 15px;
-	color: #64d2a3;
-	text-align: left;
-}
-.introducemain{
-	float: left;
-	height: 100%;
-	width:100% ;
-	font-weight: 15px;
-	color: #9c9c9c;
-	word-break: break-word;
-}
-
-
-
-.booking-title {
+	/*--主题--*/
+	.pgbody-title-first {
 		font-size: 20px;
-}
+		font-weight: 100;
+	}
+	.pgbody-mdpartm {
+		width: 30%;
+		height: 100%;
+	}
+	img {
+		margin-left: 15%;
+		height: 100%;
+		width: 130px;
+	}
+	.pgbody-mdpartl {
+		margin-top: 10%;
+		height: 40%;
+		width: 100%;
+	}
+	.pgbody-mdpartr {
+		margin-top: 20%;
+		height: 40%;
+		width: 100%;
+	}
+	.introduce {
+		height: 220px;
+		width: 200px;
+		margin-top: 2%;
+		margin-right: 20%;
+	}
 
+	/*--影评左右内容--*/
+	.introducet {
+		height: 10%;
+		width: 50%;
+		font-weight: 15px;
+		text-align: left;
+	}
+	.introducemain {
+		height: 100%;
+		width: 100%;
+	}
+	.booking-title {
+		font-size: 20px;
+	}
 
-/*--页尾--*/
-.bottom {
-	color: #fff;
-	padding-top: 50px;
-	text-align: center;
-	height: 32%;
-	width: 100%;
-	background-color: #28ab8b;
-	position: absolute;
-	margin-top: 700%;
-	float: bottom;
-}
-.bottom-title {
-	margin-bottom: 0px;
-}
-
+	/*--页尾--*/
+	.bottom {
+		height: 32%;
+		width: 100%;
+		margin-top: 3300px;
+		float: bottom;
+	}
 }
 
 /*---------大于ihone6的response-------*/
+@media(min-width:395px) and (max-width:500px) {
+	.content {
+		height: 100%;
+	}
 
-@media(min-width: 395px) and (max-width:500px ){
-.content{
-	height: 100%;
-	width: 100%;
-}
-/*--主题--*/
-.pgbody-title-first{
-	margin-top: 5%;
-	width: 70%;
-	font-weight: 100;
-	font-family: console;
-	color:#9c9c9c;
-	text-align: center;
-	margin-left: 15%;
-}
-.pgbody-title {
-   
-   text-align: center;
-   margin-left: auto;
-   margin-top: auto;
-   font-weight: 100;
-   font-size: 20px;
- 
-   color: #64d2a3;
-}
+	/*--主题--*/
+	.pgbody-title-first {
+		width: 70%;
+		font-weight: 100;
+		margin-left: 15%;
+	}
+	.pgbody-mdpartm {
+		width: 40%;
+		height: 200px;
+	}
+	img {
+		margin-top: 3%;
+		height: 100%;
+		width: 90%;
+	}
+	.pgbody-mdpartl {
+		margin-top: 5%;
+		margin-left: 0%;
+		height: 40%;
+		width: 100%;
+	}
+	.pgbody-mdpartr {
+		margin-top: 5%;
+		margin-left: 0%;
+		height: 40%;
+		width: 100%;
+	}
+	.introduce {
+		height: 100%;
+		width: 200px;
+	}
 
-.pgbody-title {
-   
-   text-align: center;
-   margin-left: auto;
-   margin-top: auto;
-   font-weight: 100;
-   font-size: 20px;
- 
-   color: #64d2a3;
-}
-
-
-.pgbody-mdpartm{
-	float: left;
-	margin-left: 0%;
-    width: 40%;
-    height: 200px;
-}
- img{
-  
-  margin-top: 3%;
-  height: 100%;
-  width:90%;
-}
-.pgbody-mdpartl{
-    margin-top:5%; 
-    margin-left: 0%;
-	height: 40%;
-	width: 100%;
-
-}
-.pgbody-mdpartr{
-	margin-top:5%; 
-	margin-left: 0%;
-	height: 40%;
-	width:100%;
-}
-
-.introduce{
-	
-	height: 100%;
-	width: 200px;
-
-}
-/*--影评左右内容--*/
-.introducet{
-	
-	height: 30px;
-	width:50% ;
-	font-weight: 15px;
-	margin-left: 5%;
-	color: #64d2a3;
-	text-align: left;
-}
-.introducemain{
-	float: left;
-	height: 80%;
-	width:100% ;
-	font-weight: 15px;
-	margin-left: 5%;
-	color: #9c9c9c;
-	word-break: break-word;
-}
-
-.booking-title {
+	/*--影评左右内容--*/
+	.introducet {
+		height: 30px;
+		width: 50%;
+		font-weight: 15px;
+		margin-left: 5%;
+		text-align: left;
+	}
+	.introducemain {
+		height: 80%;
+		width: 100%;
+		margin-left: 5%;
+	}
+	.booking-title {
 		font-size: 20px;
+	}
+
+	/*--页尾--*/
+	.bottom {
+		height: 35%;
+		width: 100%;
+		margin-top: 2000px;
+		float: bottom;
+	}
 }
 
-
-/*--页尾--*/
-.bottom {
-	color: #fff;
-	padding-top: 50px;
-	text-align: center;
-	height: 25%;
-	width: 100%;
-	background-color: #28ab8b;
-	position: absolute;
-	margin-top:350%;
-	float: bottom;
-}
-.bottom-title {
-	margin-bottom: 0px;
-}
-
-}
 /*-----------大于500px小于768px--------*/
-@media(min-width: 500px) and (max-width:768px ){
-.content{
-	height:100%;
-	width: 100%;
-}
-.pgbody-title-first{
-	margin-top: 5%;
-	
-	font-weight: 100;
-	font-family: console;
-	color:#9c9c9c;
-	text-align: center;
-}
-.pgbody-title {
-   
-   text-align: center;
-   margin-left: auto;
-   margin-top: auto;
-   font-weight: 100;
-   font-size: 20px;
- 
-   color: #64d2a3;
-}
-.pgbody-mdpartm{
-	float: left;
-	margin-left: 0%;
-    width: 160px;
-    height: 200px;
-}
- img{
-  margin-top: 10%;
-  height: 100%;
-  width:100%;
-}
-.pgbody-mdpartl{
-    margin-top:15%; 
-    margin-left:5%;
-	height: 40%;
-	width: 100%;
+@media(min-width:500px) and (max-width:767px) {
+	.content {
+		height: 100%;
+	}
+	.pgbody-title-first {
+		font-weight: 100;
+	}
+	.pgbody-mdpartm {
+		width: 160px;
+		height: 200px;
+	}
+	img {
+		margin-top: 10%;
+		height: 100%;
+		width: 100%;
+	}
+	.pgbody-mdpartl {
+		margin-top: 15%;
+		margin-left: 5%;
+		height: 40%;
+		width: 100%;
+	}
+	.pgbody-mdpartr {
+		margin-top: 15%;
+		margin-left: 5%;
+		height: 40%;
+		width: 100%;
+	}
+	.introduce {
+		height: 220px;
+		width: 200px;
+		margin-top: 2%;
+		margin-right: 20%;
+	}
 
-}
-.pgbody-mdpartr{
-	margin-top:15%; 
-	margin-left: 5%;
-	height: 40%;
-	width:100%;
-}
-
-.introduce{
-	
-	height: 220px;
-	width: 200px;
-	margin-top: 2%;
-	margin-right: 20%;
-
-}
-/*--影评左右内容--*/
-.introducet{
-	
-	height: 10%;
-	width:50% ;
-	font-weight: 15px;
-	margin-left: 5%;
-	color: #64d2a3;
-	text-align: left;
-}
-.introducemain{
-	float: left;
-	height: 80%;
-	width:100% ;
-	font-weight: 15px;
-	margin-left: 5%;
-	color: #9c9c9c;
-	word-break: break-word;
-}
-
-.booking-title {
+	/*--影评左右内容--*/
+	.introducet {
+		height: 10%;
+		width: 50%;
+		font-weight: 15px;
+		margin-left: 5%;
+		text-align: left;
+	}
+	.introducemain {
+		height: 80%;
+		width: 100%;
+		margin-left: 5%;
+	}
+	.booking-title {
 		font-size: 20px;
+	}
+
+	/*--页尾--*/
+	.bottom {
+		height: 35%;
+		width: 100%;
+		margin-top: 2800px;
+		float: bottom;
+	}
 }
-
-
-/*--页尾--*/
-.bottom {
-	color: #fff;
-	padding-top: 50px;
-	text-align: center;
-	height: 25%;
-	width: 100%;
-	background-color: #28ab8b;
-	position: absolute;
-	margin-top: 290%;
-	float: bottom;
-}
-.bottom-title {
-	margin-bottom: 0px;
-}
-
-}
-
-
-

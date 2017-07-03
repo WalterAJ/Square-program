@@ -1,0 +1,48 @@
+
+{
+	"body":{
+	"massagist": [
+	  {
+		"name": "Swedish",
+		"information": "A gentle technique, with long strokes,kneading, and circular movements to relax and energize.",
+		"img":"img/Swedish.PNG"
+	  },
+	  {
+		"name": "Deep tissue",
+		"information": "Utilizes slow, more forceful strokes to target deep muscle layers and connective tissue.",
+		"img":"img/Deep tissue.PNG"
+	  },
+	  {
+		"name": "Sports",
+		"information": "Targets muscle-tendon junctions to boost flexibility and endurance, while reducing muscle fatigue.",
+		"img":"img/Sports.PNG"
+	  },
+	  {
+		"name": "Pre-natal",
+		"information": "Lessens pregnancy discomfort, helping alleviate backaches, stiffness, leg cramps,headaches, and swelling.",
+		"img":"img/Pre-natal.PNG"
+	  },
+	  {
+		"name": "Couples Massage",
+		"information": "All mcxJalities can be performed as couples massage. Order one therapist for back to back or two for simultaneous massage.",
+		"img":"img/Couples Massage.PNG"
+	  },
+	  {
+		"name": "Thai Massage",
+		"information": "It is an ancient healing system that combines broad and targeted acupressure, stimulation and manipulation of energy lines called sen,and assisted yoga postures.",
+		"img":"img/Thai Massage.PNG"
+	  },
+	  {
+		"name": "Relaxing",
+		"information": "Helps de-stress and loosen up your body and is great for those who have had a hard working week or feel like treating themselves to some TLC!",
+		"img":"img/Relaxing.PNG"
+	  },
+	  {
+		"name": "At work",
+		"information": "Decrease stress, improve productivity,and build employee morale with in-office chair massage.",
+		"img":"img/At work.PNG"
+	  }
+ 
+  ]
+}
+}

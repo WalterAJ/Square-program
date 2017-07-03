@@ -102,24 +102,6 @@
 /*--公共整合部分--*/
 
 /*--文字--*/
-.pgbodym-t {
-	font-size: 15px;
-	font-weight: 50;
-	color: #82d9b4;
-}
-.pgbodym-m {
-	font-weight: 100;
-	font-size: 15px;
-	color: gray;
-}
-
-/*--font图标--*/
-.pgbodyfont {
-	width: 20%;
-	height: 100%;
-	font-size: 3em;
-	color: #28ab8b;
-}
 
 /*----PC---*/
 @media(min-width:768px) {
@@ -150,22 +132,20 @@
 	}
 
 	/*--主体内容--*/
-	.pgct {
-		display: flex;
-		width: 100%;
-		height: 25%;
-		margin-top: 5%;
-	}
 	.pgbodyl {
 		display: flex;
 		width: 30%;
 		height: 25%;
-		margin-left: 25%;
+		margin-left: 20%;
+		margin-right: -15%;
+		margin-top: 3%;
 	}
-	.pgbodyf {
-		display: flex;
-		width: 30%;
-		height: 25%;
+	.pgbodyfont {
+		width: 23%;
+		height: 100%;
+	}
+	.pgbodyfont img {
+		width: 100%;
 	}
 
 	/*--文字位置--*/
@@ -173,6 +153,16 @@
 		widows: 40%;
 		height: 100%;
 		margin-left: 3%;
+	}
+	.pgbodym-t {
+		font-size: 15px;
+		font-weight: 50;
+		color: #82d9b4;
+	}
+	.pgbodym-m {
+		font-weight: 100;
+		font-size: 15px;
+		color: gray;
 	}
 
 	/*--按钮--*/
@@ -195,10 +185,26 @@
 		margin-left: 40%;
 		margin-top: 3%;
 	}
+
+	/*--页尾--*/
+	.bottom {
+		color: #fff;
+		padding-top: 50px;
+		text-align: center;
+		height: 35%;
+		width: 100%;
+		background-color: #28ab8b;
+		position: absolute;
+		margin-top: 80%;
+		float: bottom;
+	}
+	.bottom-title {
+		margin-bottom: 0px;
+	}
 }
 
 /*----othertype---*/
-@media(max-width:768px) and (min-width:436px) {
+@media(min-width:436px) and  (max-width:768px) {
 
 	/*--标题--*/
 	.pgbody-title {
@@ -226,30 +232,36 @@
 	}
 
 	/*--主体内容--*/
-	.pgct {
+	.pgbodyl {
 		display: flex;
 		width: 100%;
 		height: 25%;
+		margin-left: 10%;
 		margin-top: 5%;
 	}
-	.pgbodyl {
-		display: flex;
-		width: 30%;
-		height: 25%;
-		margin-left: 15%;
+	.pgbodyfont {
+		width: 40%;
+		height: 100%;
 	}
-	.pgbodyf {
-		display: flex;
-		width: 30%;
-		height: 25%;
-		margin-left: 5%;
+	.pgbodyfont img {
+		width: 70%;
 	}
 
 	/*--文字位置--*/
 	.pgbodym {
-		widows: 40%;
 		height: 100%;
-		margin-left: 20%;
+		margin-left: 0%;
+		width: 50%;
+	}
+	.pgbodym-t {
+		font-size: 15px;
+		font-weight: 50;
+		color: #82d9b4;
+	}
+	.pgbodym-m {
+		font-weight: 100;
+		font-size: 15px;
+		color: gray;
 	}
 
 	/*--按钮--*/
@@ -271,6 +283,22 @@
 		font-weight: 50;
 		margin-left: 30%;
 		margin-top: 3%;
+	}
+
+	/*--页尾--*/
+	.bottom {
+		color: #fff;
+		padding-top: 50px;
+		text-align: center;
+		height: 25%;
+		width: 100%;
+		background-color: #28ab8b;
+		position: absolute;
+		margin-top: 290%;
+		float: bottom;
+	}
+	.bottom-title {
+		margin-bottom: 0px;
 	}
 }
 
@@ -301,30 +329,38 @@
 	}
 
 	/*--主体内容--*/
-	.pgct {
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		height: 25%;
-		margin-top: 5%;
-	}
 	.pgbodyl {
 		display: flex;
 		width: 100%;
 		height: 25%;
-		margin-top: 3%;
-	}
-	.pgbodyf {
-		display: flex;
-		width: 100%;
-		height: 25%;
 		margin-top: 7%;
+		margin-left: 5%;
+	}
+	.pgbodyfont {
+		width: 25%;
+		height: 100%;
+	}
+	.pgbodyfont img {
+		width: 100%;
 	}
 
 	/*--文字位置--*/
 	.pgbodym {
-		widows: 40%;
+		width: 70%;
 		height: 100%;
+		margin-left: 3%;
+		margin-top: 5%;
+	}
+	.pgbodym-t {
+		font-size: 15px;
+		font-weight: 50;
+		color: #82d9b4;
+	}
+	.pgbodym-m {
+		font-weight: 100;
+		font-size: 15px;
+		margin-top: 2%;
+		color: gray;
 	}
 
 	/*--按钮--*/
@@ -347,21 +383,20 @@
 		margin-left: 30%;
 		margin-top: 3%;
 	}
-}
 
-/*--页尾--*/
-.bottom {
-	color: #fff;
-	padding-top: 50px;
-	text-align: center;
-	height: 25%;
-	width: 100%;
-	background-color: #28ab8b;
-	position: absolute;
-	margin-top: 10%;
-	float: bottom;
-}
-.bottom-title {
-	margin-bottom: 0px;
-}
+	/*--页尾--*/
+	.bottom {
+		color: #fff;
+		padding-top: 50px;
+		text-align: center;
+		height:35%;
+		width: 100%;
+		background-color: #28ab8b;
+		position: absolute;
+		margin-top: 380%;
+		float: bottom;
+	}
+	.bottom-title {
+		margin-bottom: 0px;
+	}
 }
