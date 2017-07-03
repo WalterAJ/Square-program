@@ -14,7 +14,7 @@ margin-bottom: 50px;
 }
 
 
-.navigation{
+.navigation {
 	height: 50px;
 	width: 100%;
 }
@@ -28,7 +28,7 @@ margin-bottom: 50px;
 	font-weight: bold;
 	font-size: 1.4em;
 }
-.nav-brand{
+.nav-brand {
 	margin-left: 10px;
 }
 .navbar-right>li>a {
@@ -40,55 +40,52 @@ margin-bottom: 50px;
 }
 .booking-signin {
 	color: #82d9b4;
-	margin: 0 35px;
+	margin: 0 28px;
 }
-.nav-button{
-	margin: 20px;
+.nav-button {
+	margin: 15px;
 	height: 30px;
 	width: 30px;
-	cursor:pointer
+	cursor: pointer
 }
-.menu-title{
+.menu-title {
 	height: 50px;
 	line-height: 50px;
-    text-align: center;
-	background-color:#fff;
+	text-align: center;
+	background-color: #fff;
 	color: #6d6d6d;
 	padding: 0 10px;
 }
-.menu-txt{
+.menu-txt {
 	font-size: 2em;
 	color: #cbcbcb;
 	text-align: left;
 }
-
 .menu-close {
 	font-size: 2em;
 	line-height: 50px;
 	color: #cbcbcb;
 	text-align: right;
 }
-.menu-title-mm{
+.menu-title-mm {
 	max-height: 50px;
 }
 .icon-bar-color {
-
 	margin-top: 4px;
 	background-color: #999;
 	display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
 }
-.navigation-nav>a{
-	text-decoration:none;
+.navigation-nav a {
+	text-decoration: none;
 	color: #999;
 	background-color: #fff;
-	border-top: 1px solid #ebebeb;
-
+	border-top: 1px solid  #ebebeb;
 }
 .navigation-nav{
-	display: flex;
+		display: flex;
 }
 @media(max-width: 767px){
 	.nav-panel{
@@ -199,7 +196,7 @@ margin-top: 50px;
 
 
 .col-md-4{
-background-color: #64d2a3;
+background-color: #f3fcf7;
 display: flex;
 height: 180px;
 }
@@ -207,14 +204,17 @@ height: 180px;
 	width: 100%;
 }
 .box{
+text-align: center;
 margin-top: 50px;
 width: 70px;
 height: 70px;
+color: #64d2a3;
+margin-left: 30px;
 }
 .word{
 margin-left: 5px;
 margin-top: 60px;
-font-size: 20px;
+font-size: 18px;
 }
 .Therapist{
 height: 180px;
@@ -358,6 +358,7 @@ border-color: #64d2a3;
 }
 .faq{
 background-color: #e6ffef;
+margin-top: 80px;
 }
 .faq-title{
 padding-top: 40px;
@@ -398,7 +399,12 @@ font-size: 17px;
 color: #777;
 font-family: inherit;
 display: flex;
+margin-left: 10px;
 }
+.tb{
+   color: #64d2a3;
+}
+
 }
 .a{
 margin-top: 10px;
