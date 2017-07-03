@@ -12,6 +12,8 @@ margin-top: 10%;
 .bottom-title {
 margin-bottom: 50px;
 }
+
+
 .navigation{
 	height: 50px;
 	width: 100%;
@@ -80,11 +82,19 @@ margin-bottom: 50px;
 }
 .navigation-nav>a{
 	text-decoration:none;
+	color: #999;
+	background-color: #fff;
+	border-top: 1px solid #ebebeb;
 
+}
+.navigation-nav{
+	display: flex;
 }
 @media(max-width: 767px){
 	.nav-panel{
 		width: 90%;
+		height: 100%;
+		background-color: #fff;
 		position: fixed;
         right: -1000px;
         top: 0;
@@ -92,6 +102,7 @@ margin-bottom: 50px;
 	}
 	.navigation-nav{
 		margin: 0;
+		display: block;
 	}
 	.booking-signin {
 	color: #82d9b4;
@@ -268,7 +279,7 @@ margin:0 auto;
 .type-massage{
 display: flex;
 flex-wrap: wrap;
-width: 80%;
+width: 100%;
 }
 .type-title{
 padding-top: 40px;
@@ -495,14 +506,34 @@ width: 100%;
 	margin-left: 30%;
 	margin-top: 1em;
 	border-bottom: 0.06em solid #6CD4A7;
+
+}
+@media(max-width: 768px){
+.tipr{
+	width: 100%;
+	height: 3em;
+	margin-left: 0%;
+	margin-top: 1em;
+	background-color: #f3fcf7;
+	border-bottom-width: 0px;
+}
 }
 .time{
 	width: 49%;
 	height: 2em;
 	margin-right: 0;
 	text-align: left;
-	display: flex;
 }
+@media(max-width: 768px){
+.time{
+	width: 49%;
+	height: 2em;
+	margin-right: 0;
+    text-align:center; 
+
+}
+}
+
 .price{
 	display: block;
 	float: right;
@@ -512,6 +543,19 @@ width: 100%;
 	font-size: 1.3em;
 	font-weight: bold;
 	text-align: right;
+}
+@media(max-width: 768px){
+.price{
+	display: block;
+	float: right;
+	height: 2em;
+	width: 49%;
+	color: #b5b5b5;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 8px;
+}
 }
 .tm{
 	color: #65D2A4;
@@ -525,4 +569,10 @@ width: 100%;
 }
 .tth{
 	text-align: center;
+}
+@media(max-width: 768px){
+	.tth{
+		margin-top: 45px;
+	text-align: center;
+}
 }
