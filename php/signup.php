@@ -49,7 +49,7 @@
 	mysqli_stmt_bind_param($stmt,"sssss",$userInfo["fname"], $userInfo["lname"],$userInfo["email"],$userInfo["number"],$userInfo["password"]);
 	mysqli_stmt_execute($stmt);
 	if(mysqli_affected_rows($conn)>0){
-		page_redirect("注册成功！",'../login.html',1);
+		page_redirect("注册成功！",'../booking-stepf.html',1);
 	}
 	else{
 		page_redirect("注册失败！",'#',1);

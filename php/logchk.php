@@ -24,7 +24,7 @@
 			if($row[1]==$password)
 			{			
 					
-					page_redirect("登陆成功！",'../index.html',0);
+					page_redirect("登陆成功！",'../booking-stepf.html',0);
 				
 			}
 			else
