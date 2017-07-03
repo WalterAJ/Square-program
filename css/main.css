@@ -175,15 +175,16 @@ font-size: 25px;
 margin-top:5px;
 margin-bottom: 50px;
 }
-img{
+.background{
 	height: 100%;
+	width: 100%;
 }
 @media(max-width: 767px){
 .image{
 	height: 250px;
 
 }
-img{
+.background{
 	height: 100%;
 	width: 100%;
 }
@@ -192,6 +193,14 @@ img{
 
 .rowbo{
 margin-top: 50px;
+}
+.women{
+	width: 100%;
+}
+@media(max-width: 767px){
+	.women{
+	width: 100%;
+}
 }
 
 
@@ -315,7 +324,7 @@ word-break: break-all;
 .mbx{
 	display: flex;
 	margin: 0 auto;
-	width: 150px;
+	width: 50%;
 }
 .box1{
 	width: 100%;
@@ -410,6 +419,7 @@ margin-left: 10px;
 margin-top: 10px;
 font-size: 20px;
 font-family: inherit;
+margin-left: 10px;
 }
 .contactus-title{
 padding-top: 40px;
@@ -480,13 +490,13 @@ height: 350px;
 }
 @media(max-width: 768px){
 .contactus-input-body {
-margin-left: 55px;
+
 margin-top: 20px;
 text-align: center;
 width: 70%;
 }
 .contactus-input-largebody{
-	margin-left: 55px;
+
 margin-top: 20px;
 vertical-align:top;
 width: 70%;
