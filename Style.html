@@ -58,94 +58,7 @@
         </div>
         <!-- 导航栏结束 -->
         <div class="content">
-            <div class="pgbody-title">
-                <div class="pgbody-titlef">CHOOSE YOUR MASSAGE TYPE</div>
-                <div class="pgbody-titles">MASSAGE </div>
-            </div>
-            <div class=" pgct">
-                <div class="col-xs-6 pgbodyl">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-weixin"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">We Chat</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-                <div class="col-xs-6 pgbodyf">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-twitter-square"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">Twitter</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-            </div>
-            <div class="pgct">
-                <div class="col-xs-6 pgbodyl">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-qq"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">Tencent QQ</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-                <div class="col-xs-6 pgbodyf">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-steam-square"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">Steam</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-            </div>
-            <div class="pgct">
-                <div class="col-xs-6 pgbodyl">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-apple"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">Apple Inc</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-                <div class="col-xs-6 pgbodyf">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-chrome"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">Google</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-            </div>
-            <div class="pgct">
-                <div class="col-xs-6 pgbodyl">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-facebook-square"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">FaceBook</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-                <div class="col-xs-6 pgbodyf">
-                    <div class="pgbodyfont">
-                        <i class="fa fa-weibo"></i>
-                    </div>
-                    <div class="pgbodym">
-                        <div class="pgbodym-t">WeiBo</div>
-                        <div class="pgbodym-m">XXXXXXXXXXXXX</div>
-                    </div>
-                </div>
-            </div>
-            <div class="pgbutton">
-                <button class="button-bk">Book Now</button>
-            </div>
-            
+
         </div>
         <div class="bottom">
             <h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
@@ -170,5 +83,31 @@
     <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
     <!-- 自定义 -->
     <script type="text/javascript" src="js/navigation.js"></script>
+    <script src="js/jsrender.js" type="text/javascript"></script>
+    <script src="js/Style.js" type="text/javascript"></script>
 </body>
 </html>
+<!---------->
+<script id="massagistTmpl" type="text/x-jsrender">
+<div class="content">
+<div class="pgbody-title">
+    <div class="pgbody-titlef">CHOOSE YOUR MASSAGE TYPE</div>
+    <div class="pgbody-titles">MASSAGE </div>
+</div>
+
+{{for massagist}}
+
+
+    <div class="col-xs-6 pgbodyl">
+        <div class="pgbodyfont">
+            <img src="{{:img}}">
+        </div>
+        <div class="pgbodym">
+            <div class="pgbodym-t">{{:name}}</div>
+            <div class="pgbodym-m">{{:information}}</div>
+        </div>
+    </div>
+
+{{/for}}
+</div>
+</script>

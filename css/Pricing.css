@@ -95,6 +95,7 @@
 
 /*--------------body-------------*/
 
+
 /*--主题--*/
 .pgbody-title {
 	text-align: center;
@@ -140,6 +141,7 @@ body {
 		height: 3em;
 		margin-top: 1em;
 		background-color: #D9FBEA;
+
 	}
 	.time {
 		width: 49%;
@@ -164,10 +166,13 @@ body {
 		color: #999999;
 		font-size: 1.5em;
 		font-weight: bold;
+		color: #64d2a3;
+
 	}
 	.mi {
 		font-size: 1.3em;
 		font-weight: bold;
+		color: #9c9c9c;
 	}
 	.tth {
 		text-align: center;
@@ -188,7 +193,7 @@ body {
 	/*--页底按钮--*/
 	.pgbutton {
 		width: 100%;
-		height: 10%;
+		height: 30%;
 	}
 	.button-bk {
 		background-color: #28ab8b;
@@ -254,6 +259,7 @@ body {
 		color: #65D2A4;
 		font-size: 1.5em;
 		font-weight: bold;
+		color: #64d2a3;
 	}
 	.mi {
 		color: #b5b5b5;
@@ -279,21 +285,21 @@ body {
 	/*--页底按钮--*/
 	.pgbutton {
 		width: 100%;
-		height: 10%;
+		height: 20%;
 	}
 	.button-bk {
 		background-color: #28ab8b;
 		color: white;
 		border: none;
 		height: 100%;
-		width: 30%;
+		width: 15%;
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
 		font-size: 16px;
 		font-family: console;
 		font-weight: 50;
-		margin-left: 35%;
+		margin-left: 43%;
 		margin-top: 5%;
 	}
 }
