@@ -11,14 +11,14 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
         <!-- Data Range Picker -->
-        <link rel="stylesheet" type="text/css" href="lib/daterangepicker/daterangepicker.css">
+        <link rel="stylesheet" type="text/css" href="lib/datetimepicker/bootstrap-datetimepicker.min.css">
         <!-- Bootstrap sortable table -->
         <link rel="stylesheet" type="text/css" href="lib/bootstrap-table/bootstrap-table.css">
         <!-- Custom Theme Style -->
         <link rel="stylesheet" type="text/css" href="css/booking-stepo.css">
     </head>
     <body>
-       <!-- 导航栏 -->
+        <!-- 导航栏 -->
         <div class="navigation">
             <div class="nav-brand pull-left">
                 <span class="nav-txt-mobile">Mobile</span><span class="nav-txt-mas"> massages</span>
@@ -34,18 +34,17 @@
                             <i class="fa fa-close menu-close col-xs-2"></i>
                         </div>
                     </a>
-                  
+                    
                     <li><a href="index.html">Home</a></li>
                     <li  class="nav-active"><a href="booking-stepo.html">Booking</a></li>
                     <li><a href="Therapist.html">Therapist</a></li>
                     <li><a href="Style.html">Style</a></li>
                     <li><a href="Pricing.html">Pricing</a></li>
                     <li><a href="FAQ.html">FAQ</a></li>
-                    <li><a href="contact.html">Contact Us</a></li> <li class="hidden-xs"><a href="sign.html"><span class="booking-signin">Sign in</span></a></li>     
+                    <li><a href="contact.html">Contact Us</a></li> <li class="hidden-xs"><a href="sign.html"><span class="booking-signin">Sign in</span></a></li>
                     <li class="visible-xs"><a href="login.html">Login</a></li>
-                        
+                    
                 </ul>
-
             </div>
             <div class="nav-button pull-right  visible-xs">
                 <span class="sr-only">切换导航</span>
@@ -58,30 +57,30 @@
         <!-- 导航栏结束 -->
         <div class="content">
             
-                <div class="booking-step">
-                    <div class="col-xs-3 booking-step-active" >1</div>
-                    <div class="col-xs-3" >2</div>
-                    <div class="col-xs-3" >3</div>
-                    <div class="col-xs-3" >4</div>
-                </div>
+            <div class="booking-step">
+                <div class="col-xs-3 booking-step-active" >1</div>
+                <div class="col-xs-3" >2</div>
+                <div class="col-xs-3" >3</div>
+                <div class="col-xs-3" >4</div>
+            </div>
             <h1 class="booking-title">   Book my massage  </h1>
+            
             <div class="booking-input">
-                <div class="booking-input-title">
+            <div class="booking-input-title">
                     Choose a date
                 </div>
-                <div class="input-group booking-input-body">
-                    <input type="text" class="form-control" placeholder="5:00PM">
-                </div>
+                <input size="16" type="text" value="2012-06-15" readonly class="form_datetime">
+              
             </div>
             <div class="booking-input">
                 <div class="booking-input-title">
-                    Time
+                    Choose a time
                 </div>
                 <div class="input-group booking-input-body">
                     <input type="text" class="form-control" placeholder="5:00PM">
                 </div>
-                <a href="booking-steps.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
             </div>
+              <a href="booking-steps.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
         </div>
         <div class="bottom">
             <h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
@@ -99,7 +98,8 @@
         <!-- Moment -->
         <script type="text/javascript" src="lib/momentjs/moment.min.js"></script>
         <!-- Date Range Picker -->
-        <script type="text/javascript" src="lib/daterangepicker/daterangepicker.js"></script>
+        <script type="text/javascript" src="lib/datetimepicker/bootstrap-datetimepicker.js"></script>
+         <script type="text/javascript" src="lib/datetimepicker/bootstrap-datetimepicker.zh-CN.js"></script>
         <!-- bootstrap sortable table -->
         <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table.js"></script>
         <script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>

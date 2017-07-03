@@ -71,6 +71,9 @@
 	background-color: #fff;
 	border-top: 1px solid  #ebebeb;
 }
+.navigation-nav {
+	display: flex;
+}
 @media(max-width:767px) {
 	.nav-panel {
 		width: 90%;
@@ -83,6 +86,7 @@
 	}
 	.navigation-nav {
 		margin: 0;
+		display: block;
 	}
 	.booking-signin {
 		color: #82d9b4;
@@ -97,7 +101,7 @@
 	width: 100%;
 }
 .pgbody-title-first {
-	margin-top: 5%;
+	margin-top: 60px;
 	font-family: console;
 	color: #9c9c9c;
 	text-align: center;

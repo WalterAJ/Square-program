@@ -151,6 +151,10 @@
 	text-align: left;
 	width: 100%;
 }
+.booking-input input {
+	height: 34px;
+	width: 100%;
+}
 .booking-continue {
 	margin-top: 30px;
 	width: 200px;

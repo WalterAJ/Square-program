@@ -66,41 +66,39 @@
 				
 			</div>
 			<h1 class="booking-title">Customize my massage</h1>
-			<form action="add.php" method="GET">
+			<form action="php/add.php" method="GET">
 				<div class="booking-search ">
 					<div class="booking-search-title">
 						Choose  session
 					</div>
-					<select name="bike_type">
-						<option value="山地车">11</option>
-						<option value="公路车">公路车</option>
-						<option value="公路越野">公路越野</option>
-						<option value="城市休闲">城市休闲车</option>
+					<select name="session">
+						<option value="Single-1 therapist">Single-1 therapist</option>
+						<option value="2 therapist">2 therapist</option>
+						
 					</select>
 				</div>
 				<div class="booking-search ">
 					<div class="booking-search-title">
 						Massage lenght
 					</div>
-					<select name="bike_type">
-						<option value="山地车">山地车</option>
-						<option value="公路车">公路车</option>
-						<option value="公路越野">公路越野</option>
-						<option value="城市休闲">城市休闲车</option>
+					<select name="length">
+						<option value="60 minutes-€99">60 minutes-€99</option>
+						<option value="90 minutes-€150">90 minutes-€150</option>
+						<option value="120 minutes-€190">120 minutes-€190</option>
+
 					</select>
 				</div>
 				<div class="booking-search ">
 					<div class="booking-search-title">
 						Massage type
 					</div>
-					<select name="bike_type">
-						<option value="山地车">山地车</option>
-						<option value="公路车">公路车</option>
-						<option value="公路越野">公路越野</option>
-						<option value="城市休闲">城市休闲车</option>
+					<select name="type">
+						<option value="Swedish Massage">Swedish Massage</option>
+						<option value="Sport Massage">Sport Massage</option>
+						<option value="Pre-natal Massage">Pre-natal Massage</option>
 					</select>
 				</div>
-			</form>
+			
 			<div class="choose-therapist">
 				<div class="choose-therapist-title">
 					<span class="ctt-choose">Choose your therapist</span><br>
@@ -163,7 +161,7 @@
 					</div>
 				</div>
 				
-				<div class="booking-information Carol">
+				<div class="booking-information Carol hidden">
 					<h4 class="information-title">
 					Carol
 					</h4>
@@ -172,7 +170,7 @@
 					</div>
 				</div>
 				
-				<div class="booking-information Molly" >
+				<div class="booking-information Molly hidden" >
 					<h4 class="information-title">
 					Molly
 					</h4>
@@ -181,7 +179,7 @@
 					</div>
 				</div>
 				
-				<div class="booking-information Kylie" >
+				<div class="booking-information Kylie hidden" >
 					<h4 class="information-title">
 					Kylie
 					</h4>
@@ -190,7 +188,7 @@
 					</div>
 				</div>
 				
-				<div class="booking-information Rose" id="">
+				<div class="booking-information Rose hidden" id="">
 					<h4 class="information-title">
 					Rose
 					</h4>
@@ -199,7 +197,7 @@
 					</div>
 				</div>
 				
-				<div class="booking-information Lera" id="">
+				<div class="booking-information Lera hidden" id="">
 					<h4 class="information-title">
 					Lera
 					</h4>
@@ -208,7 +206,7 @@
 					</div>
 				</div>
 				
-				<div class="booking-information Jusie" id="">
+				<div class="booking-information Jusie hidden" id="">
 					<h4 class="information-title">
 					Jusie
 					</h4>
@@ -217,7 +215,7 @@
 					</div>
 				</div>
 				
-				<div class="booking-information kylie" id="">
+				<div class="booking-information kylie hidden" id="">
 					<h4 class="information-title">
 					kylie
 					</h4>
@@ -227,7 +225,7 @@
 				</div>
 				
 			</div>
-			<a href="booking-stept.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
+		<a href="booking-stept.html"><input type="submit" class="btn btn-primary booking-continue" value="CONTINUE"></a>
 			<div class="continue-txt">
 				By clicking "Continue" above,you are agreeing to our terms of Service agreement.
 			</div>
@@ -236,6 +234,7 @@
 				<span class="back-txt">Back</span>
 			</div>
 		</a>
+		</form>
 	</div>
 	<div class="bottom">
 		<h4 class="bottom-title">Mobile<strong>Massages</strong></h4>

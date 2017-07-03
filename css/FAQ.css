@@ -77,8 +77,11 @@
     background-color: #fff;
     border-top: 1px solid  #ebebeb;
 }
-@media(max-width: 767px){
-    .nav-panel{
+.navigation-nav {
+    display: flex;
+}
+@media(max-width:767px) {
+    .nav-panel {
         width: 90%;
         height: 100%;
         background-color: #fff;
@@ -87,13 +90,14 @@
         top: 0;
         z-index: 3000;
     }
-    .navigation-nav{
+    .navigation-nav {
         margin: 0;
+        display: block;
     }
     .booking-signin {
-    color: #82d9b4;
-    margin: 0;
-}
+        color: #82d9b4;
+        margin: 0;
+    }
 }
 
 
@@ -125,7 +129,7 @@
     margin-top: 1%;
 }
 .pgbody{
-    margin-top: 10%;
+    margin-top: 60px;
     height: 15%;
     width: 100%;
 }
@@ -173,7 +177,7 @@
 
 }
 .pgbody{
-    margin-top: 10%;
+    margin-top: 2%;
     height: 15%;
     width: 100%;
 }

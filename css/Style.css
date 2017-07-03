@@ -74,6 +74,9 @@
 	background-color: #fff;
 	border-top: 1px solid  #ebebeb;
 }
+.navigation-nav {
+	display: flex;
+}
 @media(max-width:767px) {
 	.nav-panel {
 		width: 90%;
@@ -86,13 +89,13 @@
 	}
 	.navigation-nav {
 		margin: 0;
+		display: block;
 	}
 	.booking-signin {
 		color: #82d9b4;
 		margin: 0;
 	}
 }
-
 /*--------------body-------------*/
 
 /*--主题--*/
@@ -110,14 +113,13 @@
 	.pgbody-title {
 		width: 100%;
 		height: 30%;
-		margin-top: 10%;
+		margin-top: 60px;
 		margin-bottom: 5%;
 	}
 	.pgbody-titlef {
 		text-align: center;
 		font-size: 30px;
 		font-weight: lighter;
-		width: 95%;
 		color: #82d9b4;
 		display: block;
 	}
@@ -195,7 +197,7 @@
 		width: 100%;
 		background-color: #28ab8b;
 		position: absolute;
-		margin-top: 80%;
+		margin-top: 50%;
 		float: bottom;
 	}
 	.bottom-title {

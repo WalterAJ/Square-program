@@ -74,6 +74,9 @@
 	background-color: #fff;
 	border-top: 1px solid  #ebebeb;
 }
+.navigation-nav {
+	display: flex;
+}
 @media(max-width:767px) {
 	.nav-panel {
 		width: 90%;
@@ -86,6 +89,7 @@
 	}
 	.navigation-nav {
 		margin: 0;
+		display: block;
 	}
 	.booking-signin {
 		color: #82d9b4;
@@ -215,6 +219,7 @@ body {
 	.content {
 		width: 100%;
 		background-color: #fff;
+		margin-top: 60px;
 	}
 	.content h2 {
 		color: #6CD4A7;
@@ -291,8 +296,9 @@ body {
 		background-color: #28ab8b;
 		color: white;
 		border: none;
-		height: 100%;
-		width: 15%;
+		height: 38px;
+		width: 20%;
+		max-width:200px; 
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;

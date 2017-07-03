@@ -89,25 +89,26 @@
 					<div class="cutting-line col-xs-5"></div>
 				</div>
 			</div>
-			<form action="php/signup.php" method="get">
-				<div class="inputbox-cus">
-					<div class="booking-input">
-						<div class="booking-input-title">
-							First Name
-						</div>
-						<div class="input-group booking-input-body">
-							<input type="text" class="form-control" name="fname">
-						</div>
+			
+			<div class="inputbox-cus">
+				<div class="booking-input">
+					<div class="booking-input-title">
+						First Name
 					</div>
-					<div class="booking-input">
-						<div class="booking-input-title">
-							Last Name
-						</div>
-						<div class="input-group booking-input-body">
-							<input type="text" class="form-control" name="lname">
-						</div>
-						
+					<div class="input-group booking-input-body">
+						<input type="text" class="form-control" name="fname">
 					</div>
+				</div>
+				<div class="booking-input">
+					<div class="booking-input-title">
+						Last Name
+					</div>
+					<div class="input-group booking-input-body">
+						<input type="text" class="form-control" name="lname">
+					</div>
+					
+				</div>
+				<form action="php/password.php">
 					<div class="booking-input">
 						<div class="booking-input-title">
 							Email address
@@ -126,6 +127,7 @@
 						</div>
 						
 					</div>
+					
 					<div class="booking-input">
 						<div class="booking-input-title">
 							Choose a password
@@ -136,37 +138,36 @@
 						
 					</div>
 					<input type="submit" class="btn btn-primary booking-continue" value="CONTINUE">
-				</div>
-
-			</form>
-			<form action="php/logchk.php" method="get">
-			<div class="inputbox-acc">
-				<div class="booking-input">
-					<div class="booking-input-title">
-						Email address
-					</div>
-					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" name="username" >
-					</div>
-					
-				</div>
-				<div class="booking-input">
-					<div class="booking-input-title">
-						Password
-					</div>
-					<div class="input-group booking-input-body">
-						<input type="password" class="form-control" name="password">
-					</div>
-					
-				</div>
-				<a href="booking-steps.html">
-					<div class="back">
-						
-						<a href="forget.html"><span class="back-txt">Forget Password</span></a>
-					</div>
-				</a>
-				<input type="submit" class="btn btn-primary booking-continue" value="CONTINUE">
+				</form>
 			</div>
+			<form action="php/password.php">
+				<div class="inputbox-acc">
+					<div class="booking-input">
+						<div class="booking-input-title">
+							Email address
+						</div>
+						<div class="input-group booking-input-body">
+							<input type="text" class="form-control" name="username" >
+						</div>
+						
+					</div>
+					<div class="booking-input">
+						<div class="booking-input-title">
+							Password
+						</div>
+						<div class="input-group booking-input-body">
+							<input type="password" class="form-control" name="password">
+						</div>
+						
+					</div>
+					<a href="booking-steps.html">
+						<div class="back">
+							
+							<a href="forget.html"><span class="back-txt">Forget Password</span></a>
+						</div>
+					</a>
+					<input type="submit" class="btn btn-primary booking-continue" value="CONTINUE">
+				</div>
 			</form>
 			
 			<a href="booking-steps.html">

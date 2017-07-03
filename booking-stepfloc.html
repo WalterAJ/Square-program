@@ -65,17 +65,18 @@
 				</div>
 			</div>
 			<h1 class="booking-title">Location </h1>
+			<form action="php/addloc.php">
 			<div class="booking-input">
 				<div class="booking-input-title">
 					street address
 				</div>
 				<div class="input-group booking-input-body">
-					<input type="text" class="form-control" >
+					<input type="text" class="form-control" name="address" >
 				</div>
 			</div>
 			<div class="booking-input">
 				<div class="booking-input-title">
-					street address
+					street address 2
 				</div>
 				<div class="input-group booking-input-body">
 					<input type="text" class="form-control" placeholder="Apt/Floor/Suite">
@@ -112,7 +113,8 @@
 				
 			</div>
 
-				<a href="booking-stepf.html"><button type="button" class="btn btn-primary booking-continue">BOOK MY MASSAGE</button></a>
+				<input type="submit" class="btn btn-primary booking-continue" value="CONTINUE">
+				</form>
 				<a href="booking-stept.html">
 					<div class="back">
 						<i class="fa fa-angle-left back-caret"></i>
