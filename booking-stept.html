@@ -35,8 +35,8 @@
 						</div>
 					</a>
 					
-					<li class="nav-active"><a href="index.html">Home</a></li>
-					<li><a href="booking-stepo.html">Booking</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li  class="nav-active"><a href="booking-stepo.html">Booking</a></li>
 					<li><a href="Therapist.html">Therapist</a></li>
 					<li><a href="Style.html">Style</a></li>
 					<li><a href="Pricing.html">Pricing</a></li>
@@ -89,52 +89,56 @@
 					<div class="cutting-line col-xs-5"></div>
 				</div>
 			</div>
-			<div class="inputbox-cus">
-				<div class="booking-input">
-					<div class="booking-input-title">
-						First Name
+			<form action="php/signup.php" method="get">
+				<div class="inputbox-cus">
+					<div class="booking-input">
+						<div class="booking-input-title">
+							First Name
+						</div>
+						<div class="input-group booking-input-body">
+							<input type="text" class="form-control" name="fname">
+						</div>
 					</div>
-					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" >
+					<div class="booking-input">
+						<div class="booking-input-title">
+							Last Name
+						</div>
+						<div class="input-group booking-input-body">
+							<input type="text" class="form-control" name="lname">
+						</div>
+						
 					</div>
+					<div class="booking-input">
+						<div class="booking-input-title">
+							Email address
+						</div>
+						<div class="input-group booking-input-body">
+							<input type="text" class="form-control" name="email">
+						</div>
+						
+					</div>
+					<div class="booking-input">
+						<div class="booking-input-title">
+							Mobile number
+						</div>
+						<div class="input-group booking-input-body">
+							<input type="text" class="form-control" name="number">
+						</div>
+						
+					</div>
+					<div class="booking-input">
+						<div class="booking-input-title">
+							Choose a password
+						</div>
+						<div class="input-group booking-input-body">
+							<input type="text" class="form-control" name="password">
+						</div>
+						
+					</div>
+					<input type="submit" class="btn btn-primary booking-continue" value="CONTINUE">
 				</div>
-				<div class="booking-input">
-					<div class="booking-input-title">
-						Last Name
-					</div>
-					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" >
-					</div>
-					
-				</div>
-				<div class="booking-input">
-					<div class="booking-input-title">
-						Email address
-					</div>
-					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" >
-					</div>
-					
-				</div>
-				<div class="booking-input">
-					<div class="booking-input-title">
-						Mobile number
-					</div>
-					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" >
-					</div>
-					
-				</div>
-				<div class="booking-input">
-					<div class="booking-input-title">
-						Choose a password
-					</div>
-					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" >
-					</div>
-					
-				</div>
-			</div>
+
+			</form>
 			<div class="inputbox-acc">
 				<div class="booking-input">
 					<div class="booking-input-title">
@@ -155,41 +159,42 @@
 					
 				</div>
 				<a href="booking-steps.html">
-			<div class="back">
-				
-				<a href="forget.html"><span class="back-txt">Forget Password</span></a>
+					<div class="back">
+						
+						<a href="forget.html"><span class="back-txt">Forget Password</span></a>
+					</div>
+				</a>
+				<a href="booking-stepf.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
 			</div>
-		</a>
-			</div>
-			<a href="booking-stepf.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
+			
 			<a href="booking-steps.html">
-			<div class="back">
-				<i class="fa fa-angle-left back-caret"></i>
-				<span class="back-txt">Back</span>
-			</div>
-		</a>
-	</div>
-	<div class="bottom">
-		<h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
-		<p>
-			@2017 MOBILE MASSAGES<br>
-			TERMS&CONDITIONS<br>
-			PRIVACY POLICY
-		</p>
-		
-	</div>
-	<!-- jQuery (Bootstrap必需) -->
-	<script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
-	<!-- Bootstrap -->
-	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
-	<!-- Moment -->
-	<script type="text/javascript" src="lib/momentjs/moment.min.js"></script>
-	<!-- Date Range Picker -->
-	<script type="text/javascript" src="lib/daterangepicker/daterangepicker.js"></script>
-	<!-- bootstrap sortable table -->
-	<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table.js"></script>
-	<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
-	<!-- 自定义 -->
-	<script type="text/javascript" src="js/booking-stept.js"></script>
-</body>
+				<div class="back">
+					<i class="fa fa-angle-left back-caret"></i>
+					<span class="back-txt">Back</span>
+				</div>
+			</a>
+		</div>
+		<div class="bottom">
+			<h4 class="bottom-title"> Mobile <strong>Massages</strong></h4>
+			<p>
+				@2017 MOBILE MASSAGES<br>
+				TERMS&CONDITIONS<br>
+				PRIVACY POLICY
+			</p>
+			
+		</div>
+		<!-- jQuery (Bootstrap必需) -->
+		<script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap -->
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Moment -->
+		<script type="text/javascript" src="lib/momentjs/moment.min.js"></script>
+		<!-- Date Range Picker -->
+		<script type="text/javascript" src="lib/daterangepicker/daterangepicker.js"></script>
+		<!-- bootstrap sortable table -->
+		<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table.js"></script>
+		<script type="text/javascript" src="lib/bootstrap-table/bootstrap-table-zh-CN.js"></script>
+		<!-- 自定义 -->
+		<script type="text/javascript" src="js/booking-stept.js"></script>
+	</body>
 </html>

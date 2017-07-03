@@ -151,7 +151,7 @@
 }
 .apply-continue{
 	width: 100%;
-	margin-top:22px;
+	margin-top:44px;
 	border-radius: 0;
 	border-color:  #64d2a3;
 	background-color: #64d2a3;
@@ -231,12 +231,17 @@
 }
 @media(max-width:768px) {
 	.content {
-		width: 100%;
-		margin: 0;
+		width: 80%;
+		margin: 0 auto;
 		margin-top: 60px;
 	}
 	.booking-title {
-		font-size: 25px;
+		font-size: 20px;
+	}
+	.booking-step {
+		padding: 0;
+		width: 125%;
+		margin-left: -12.5%;
 	}
 }
 

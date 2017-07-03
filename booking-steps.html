@@ -35,8 +35,8 @@
 						</div>
 					</a>
 					
-					<li class="nav-active"><a href="index.html">Home</a></li>
-					<li><a href="booking-stepo.html">Booking</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li  class="nav-active"><a href="booking-stepo.html">Booking</a></li>
 					<li><a href="Therapist.html">Therapist</a></li>
 					<li><a href="Style.html">Style</a></li>
 					<li><a href="Pricing.html">Pricing</a></li>
@@ -170,7 +170,7 @@
 <div class="booking-picturebox container-fluid">
 				<div class="row">
 					{{for massagist}}
-							<div class="col-xs-3" >
+							<div class="col-xs-3 booking-massagist" >
 									<img src="{{:img}}" alt="">
 									<span class="name">{{:name}}</span>
 							</div>
@@ -178,7 +178,7 @@
 				</div>
 			</div>
 			{{for massagist}}
-			<div class="booking-information">
+			<div class="booking-information hidden">
 				<h4 class="information-title">
 						{{:name}}
 				</h4>

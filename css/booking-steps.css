@@ -184,6 +184,7 @@
 	margin-top: 30px;
 	width: 100%;
 	margin-top: 10px;
+	cursor:pointer;
 }
 .booking-information{
 	padding:10px;
@@ -227,14 +228,23 @@
 	color: #9c9c9c;
 	font-weight: bold;
 }
-@media(max-width:767px) {
+@media(max-width:768px) {
 	.content {
-		width: 100%;
-		margin: 0;
+		width: 80%;
+		margin: 0 auto;
 		margin-top: 60px;
 	}
 	.booking-title {
 		font-size: 20px;
+	}
+	.booking-step {
+		padding: 0;
+		width: 125%;
+		margin-left: -12.5%;
+	}
+	.booking-therapist{
+		width: 125%;
+		margin-left: -12.5%;
 	}
 }
 /*页足*/
