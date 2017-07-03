@@ -1,21 +1,7 @@
-
 {
-	"body":{
-	"massagist": [
-	  {
-		"name": "saozhu",
-		"information": "Rose immediately puts you at ease with",
-		"img":"img/anne.jpg"
-	  },
-	  {
-		"name": "Anne",
-		"information": "Anne immediately puts you at ease with"
-	  },
-	  {
-		"name": "Anne",
-		"information": "Anne immediately puts you at ease with"
-	  }
- 
-  ]
-}
-}
+	"user":[
+		{
+		"fname":"mike",
+	    "lname":"john"
+	}]
+} 

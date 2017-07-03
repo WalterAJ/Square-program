@@ -24,22 +24,22 @@
 			if($row[1]==$password)
 			{			
 					
-					page_redirect("登陆成功！",'../booking-stepf.html',0);
+					page_redirect("登陆成功！",'../booking-stepfloc.html',0);
 				
 			}
 			else
 			{
-				page_redirect("密码错误！",'../login.html',0);
+				page_redirect("密码错误！",'../booking-stept.html',0);
 			}
 		}
 		else
 		{
-			page_redirect("用户名不存在！",'../login.html',0);
+			page_redirect("用户名不存在！",'../booking-stept.html',0);
 		}
 	}
 	else
 	{
-		page_redirect("用户名不存在！",'../login.html',0);
+		page_redirect("用户名不存在！",'../booking-stept.html',0);
 	}
 
 	//获取用户ID并保存至SESSION

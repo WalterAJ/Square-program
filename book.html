@@ -82,18 +82,15 @@
     <div class="pgbody-title">Expreienced,qualified & insured </div>
     <p class="pgbody-title">professional therapists </p>
     
-    {{for massagist}}
+
     <div class="col-xs-2  pgbody-mdpartl" id="pgbody-mdpartl">
-        <div class="pgbody-mdpartm">
-           <img src="{{:img}}">
-        </div>
-        
+       
+   {{for user}}
         <div class="col-xs-4 introduce">
            
-            <div class="introducet">{{:name}}</div>
-            <div class="introducemain">{{:information}}</div>
+            <div class="introducet">{{:fname}}</div>
+            <div class="introducemain">{{:lname}}</div>
         </div>
-    </div>
-    {{/for}}
-    
+{{/for}}
+    </div> 
     </script>

@@ -131,7 +131,7 @@
 							Choose a password
 						</div>
 						<div class="input-group booking-input-body">
-							<input type="text" class="form-control" name="password">
+							<input type="password" class="form-control" name="password">
 						</div>
 						
 					</div>
@@ -139,13 +139,14 @@
 				</div>
 
 			</form>
+			<form action="php/logchk.php" method="get">
 			<div class="inputbox-acc">
 				<div class="booking-input">
 					<div class="booking-input-title">
 						Email address
 					</div>
 					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" >
+						<input type="text" class="form-control" name="username" >
 					</div>
 					
 				</div>
@@ -154,7 +155,7 @@
 						Password
 					</div>
 					<div class="input-group booking-input-body">
-						<input type="text" class="form-control" >
+						<input type="password" class="form-control" name="password">
 					</div>
 					
 				</div>
@@ -164,8 +165,9 @@
 						<a href="forget.html"><span class="back-txt">Forget Password</span></a>
 					</div>
 				</a>
-				<a href="booking-stepf.html"><button type="button" class="btn btn-primary booking-continue">CONTINUE</button></a>
+				<input type="submit" class="btn btn-primary booking-continue" value="CONTINUE">
 			</div>
+			</form>
 			
 			<a href="booking-steps.html">
 				<div class="back">

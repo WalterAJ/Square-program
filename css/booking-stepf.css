@@ -151,7 +151,7 @@
 }
 .apply-continue{
 	width: 100%;
-	margin-top:44px;
+	margin-top:22px;
 	border-radius: 0;
 	border-color:  #64d2a3;
 	background-color: #64d2a3;
@@ -159,6 +159,7 @@
 .booking-input-title {
 	text-align: left;
 	font-size: 17px;
+	white-space: nowrap;
 }
 .booking-input-body {
 	text-align: left;
@@ -180,32 +181,17 @@
 .inputbox-acc {
 	display: none;
 }
-.radio-active {
-	background-color: #d9fbea;
-}
-.booking-fb {
-	width: 100%;
+.summary-table{
+	text-align: left;
+	border: 1px solid #ddd;
+	color: #999;
+	font-weight: bold;
 	max-width: 330px;
-	border-radius: 10px;
-	margin-top: 20px;
-}
-.booking-fb i {
-	margin-right: 10px;
-}
-.cutting {
-	height: 60px;
-	width: 100%;
-	max-width: 330px;
-	display: flex;
 	margin: 0 auto;
 }
-.cutting-line {
-	margin-top: 30px;
-	background-color: #e6e6e6;
-	height: 2px;
-}
-.cutting-txt {
-	line-height: 60px;
+.sum-total{
+	color: #64d2a3;
+	font-size: 1.5em;
 }
 /*继续按钮*/
 .booking-continue {
